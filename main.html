@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://2sto_local.com/">
+    <meta property="og:title" content="2STO Home">
+    <meta property="og:image" content="http://2sto_local.com/assets/images/opengraph.png">
+    <meta property="og:image" content="assets/images/opengraph.png"/>
+    <meta property="og:description" content="글로벌 채용을 향한 첫 걸음을 내딛어 보세요!">
+    <meta property="og:site_name" content="2STO">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <title>2STO 해외취업</title>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    
+    <!-- fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!--Favicons-->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/fa/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/fa/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/fa/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/fa/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/fa/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/fa/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/fa/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/fa/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/fa/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/fa/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/fa/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/fa/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/fa/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/fa/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+    <!-- header -->
+    <header id="sri-header">
+
+        <div class="navigation">
+            <a href="main.html" class="header-logo"><img src="assets/images/logo_header.png" alt=""></a>
+            <ul class="left-header">
+                <li onclick="location.href='employment.html'">Employment</li>
+                <li onclick="location.href='resume.html'">Resume</li>
+                <li onclick="location.href='community_story.html'">Interview</li>
+                <li onclick="location.href='community.html'">Community</li>
+                <li onclick="location.href='mypage.html'">Mypage</li>
+            </ul>
+
+            <ul class="right-header">
+                <li id="myBtn"><img src="assets/images/icon/ic_search.png" alt=""></li>
+                <li onclick="location.href='login.html'"><button onclick="location.href='login.html'">Login/Join the membership</button></li>
+            </ul>
+
+            <div class="header-ham hamModal"></div>
+        </div>
+
+        <div class="navi-total">
+            <div id="sri-index">
+                <div class="panel-menu menu">
+                    <div class="major recruit">
+                        <span class="depth1"><span class="txt" onclick="location.href='employment.html'">Employment<img
+                                    src="assets/images/icon/ic_arright_grey.png" alt=""></span></span>
+                        <ul class="depth2">
+                            <li><a href=""><span class="txt">By country</span></a></li>
+                            <li><a href=""><span class="txt">By job</span></a></li>
+                            <li><a href=""><span class="txt">By company</span></a></li>
+                            <li><a href=""><span class="txt">By Industry</span></a></li>
+                            <li><a href=""><span class="txt">Popularity(TOP)</span></a></li>
+                            <li><a href=""><span class="txt">Power Company(Advertisement)</span></a></li>
+                            <li><a href=""><span class="txt">AI Recommended Matching</span></a></li>
+
+                        </ul>
+                    </div>
+                    <div class="major">
+                        <span class="depth1"><span class="txt" onclick="location.href='resume.html'">Resume<img
+                                    src="assets/images/icon/ic_arright_grey.png" alt=""></span></span>
+                        <ul class="depth2">
+                            <li><a href=""><span class="txt">Resume Writing</span></a></li>
+                            <li><a href=""><span class="txt">Resume Management</span></a></li>
+                            <li><a href=""><span class="txt">AI proofreading</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="major">
+                        <span class="depth1"><span class="txt"
+                                onclick="location.href='community_story.html'">Interview<img
+                                    src="assets/images/icon/ic_arright_grey.png" alt=""></span></span>
+                        <ul class="depth2">
+                            <li><a href=""><span class="txt">Enterprise Review</span></a></li>
+                            <li><a href=""><span class="txt">Salary</span></a></li>
+                            <li><a href=""><span class="txt">Corporate Analysis Report</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="major">
+                        <span class="depth1"><span class="txt" onclick="location.href='community.html'">Community<img
+                                    src="assets/images/icon/ic_arright_grey.png" alt=""></span></span>
+                        <ul class="depth2">
+                            <li><a href=""><span class="txt">Created by Community</span></a></li>
+                            <li><a href=""><span class="txt">Interview review</span></a></li>
+                            <li><a href=""><span class="txt">Job Interview</span></a></li>
+                            <li><a href=""><span class="txt">Application form for successful applicants</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="major">
+                        <span class="depth1"><span class="txt" onclick="location.href='mypage.html'">Mypage<img
+                                    src="assets/images/icon/ic_arright_grey.png" alt=""></span></span>
+                        <ul class="depth2">
+                            <li><a href=""><span class="txt">Member information management</span></a></li>
+                            <li><a href=""><span class="txt">Resume Management</span></a></li>
+                            <li><a href=""><span class="txt">Job application status</span></a></li>
+                            <li><a href=""><span class="txt">Custom Information</span></a></li>
+                            <li><a href=""><span class="txt">Scraped notice</span></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 검색 모달창 -->
+        <div id="myModal" class="modal search-modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="choice-inner">
+
+                    <div class="selectBoxList">
+                        <!-- selectBox1 -->
+                        <div class="box">
+                            <div class="selectBox2 ">
+                                <button class="label"><img src="assets/images/icon/ic_location_grey.png" alt="">
+                                    <p>Country selection</p>
+                                </button>
+                                <ul class="optionList">
+                                    <li class="optionItem">The United States</li>
+                                    <li class="optionItem">Japan</li>
+                                    <li class="optionItem">China and Hong Kong</li>
+                                    <li class="optionItem">Asia and the Middle East</li>
+                                    <li class="optionItem">North and Central America</li>
+                                    <li class="optionItem">South America</li>
+                                    <li class="optionItem">Europe</li>
+                                    <li class="optionItem">Oceania</li>
+                                    <li class="optionItem">Africa</li>
+                                    <li class="optionItem">Antarctica</li>
+                                    <li class="optionItem">Other overseas</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- selectBox2 -->
+                        <div class="box">
+                            <div class="selectBox2  ">
+                                <button class="label"><img src="assets/images/icon/ic_location_grey.png" alt="">
+                                    <p>City selection</p>
+                                </button>
+                                <ul class="optionList">
+                                    <li class="optionItem">Tokyo</li>
+                                    <li class="optionItem">New York</li>
+                                    <li class="optionItem">London</li>
+                                    <li class="optionItem">Paris</li>
+                                    <li class="optionItem">Madrid</li>
+                                    <li class="optionItem">Dubai</li>
+                                    <li class="optionItem">Rome</li>
+                                    <li class="optionItem">Barcelona</li>
+                                    <li class="optionItem">seoul</li>
+                                    <li class="optionItem">Sydney</li>
+                                    <li class="optionItem">Singapore</li>
+                                    <li class="optionItem">Berlin</li>
+                                    <li class="optionItem">fly</li>
+                                    <li class="optionItem">Amsterdam</li>
+                                    <li class="optionItem">Hong Kong</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- selectBox3 -->
+                        <div class="box">
+                            <div class="selectBox2  ">
+                                <button class="label"><img src="assets/images/icon/ic_job_grey.png" alt="">
+                                    <p>A career choice</p>
+                                </button>
+                                <ul class="optionList">
+                                    <li class="optionItem">Planning and Strategy</li>
+                                    <li class="optionItem">Marketing, Publicity, Research</li>
+                                    <li class="optionItem">Accounting, Taxation, Finance</li>
+                                    <li class="optionItem">HR, Labor, HRD</li>
+                                    <li class="optionItem">general affairs, legal affairs, affairs</li>
+                                    <li class="optionItem">IT development and data</li>
+                                    <li class="optionItem">Design</li>
+                                    <li class="optionItem">Sales, Trade</li>
+                                    <li class="optionItem">Customer consultation and TM</li>
+                                    <li class="optionItem">Purchases, Materials, Logistics</li>
+                                    <li class="optionItem">Product planning and MD</li>
+                                    <li class="optionItem">Driving, transportation, and delivery</li>
+                                    <li class="optionItem">Service</li>
+                                    <li class="optionItem">Production</li>
+                                    <li class="optionItem">Construction and Architecture</li>
+                                    <li class="optionItem">Medical treatment</li>
+                                    <li class="optionItem">Research and R&amp;D</li>
+                                    <li class="optionItem">Education</li>
+                                    <li class="optionItem">Media, Culture, Sports</li>
+                                    <li class="optionItem">Finance and insurance</li>
+                                    <li class="optionItem">Public welfare</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="search-container">
+                        <div class="search-box">
+                            <img src="assets/images/icon/ic_search_grey.png" alt="">
+                            <input type="text" class="search-input" placeholder="Enter search terms">
+                        </div>
+                    </div>
+
+                    <button class="search-button">Search</button>
+                </div>
+
+                <!-- 추천 검색어, 인기 검색어 -->
+                <div class="recommend-search">
+                    <h1>Recommended search terms</h1>
+                    <ul>
+                        <li>#Top 2-5% annual salary</li>
+                        <li>#Resignation rate of 5% or less</li>
+                        <li>#Working 4 days a week</li>
+                        <li>#35 hours a week</li>
+                    </ul>
+                </div>
+                <div class="popular-search">
+                    <div class="popular-header">
+                        <h1>A popular search term</h1>
+                        <p>As of 15:00</p>
+                    </div>
+                    <ul>
+                        <li>1. I flood</li>
+                        <li>2. Front End</li>
+                        <li>3. Designer</li>
+                        <li>4. Data</li>
+                        <li>5. Service planning</li>
+                        <li>6. General affairs</li>
+                        <li>7. Marketing</li>
+                        <li>8. Manager</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <!-- 검색 모달창:end -->
+
+    </header>
+    <!-- //end header -->
+
+    <!-- 모바일 햄버거 -->
+    <div class="modalH hamModalBox">
+        <div class="modal-content sitemap-modal">
+            <div class="modal-header">
+                <div class="container">
+                    <h1 id="logo"><a href="main.html"><img src="assets/images/logo_header.png"></a></h1>
+                </div>
+                <span class="close hamClose"></span>
+            </div>
+            <div class="modal-inner">
+                <div class="site-menu">
+                    <ul>
+                        <li class="sitemap-subtit" onclick="location.href='employment.html'">Employment</li>
+                        <ul class="sub-flexmenu">
+                            <li onclick="location.href=''">By country</li>
+                            <li onclick="location.href=''">By job</li>
+                            <li onclick="location.href=''">By company</li>
+                            <li onclick="location.href=''">By Industry</li>
+                            <li onclick="location.href=''">Popularity(TOP)</li>
+                            <li onclick="location.href=''">Power Company(Advertisement)</li>
+                            <li onclick="location.href=''">AI Recommended Matching</li>
+                        </ul>
+                    </ul>
+                    <div class="lined"></div>
+                    <ul>
+                        <li class="sitemap-subtit" onclick="location.href='resume.html'">Resume</li>
+                        <ul class="sub-flexmenu">
+                            <li onclick="location.href=''">Resume Writing</li>
+                            <li onclick="location.href=''">Resume Management</li>
+                            <li onclick="location.href=''">AI proofreading</li>
+                        </ul>
+                    </ul>
+                    <div class="lined"></div>
+                    <ul>
+                        <li class="sitemap-subtit" onclick="location.href='community_story.html'">Interview</li>
+                        <ul class="sub-flexmenu">
+                            <li onclick="location.href=''">Enterprise Review</li>
+                            <li onclick="location.href=''">Salary</li>
+                            <li onclick="location.href=''">Corporate Analysis Report</li>
+                        </ul>
+                    </ul>
+                    <div class="lined"></div>
+                    <ul>
+                        <li class="sitemap-subtit" onclick="location.href='community.html'">Community</li>
+                        <ul class="sub-flexmenu">
+                            <li onclick="location.href=''">Created by Community</li>
+                            <li onclick="location.href=''">Interview review</li>
+                            <li onclick="location.href=''">Job Interview</li>
+                            <li onclick="location.href=''">Application form for successful applicants</li>
+                        </ul>
+                    </ul>
+                    <div class="lined"></div>
+                    <ul>
+                        <li class="sitemap-subtit" onclick="location.href='mypage.html'">Mypage</li>
+                        <ul class="sub-flexmenu">
+                            <li onclick="location.href=''">Member information management</li>
+                            <li onclick="location.href=''">Resume Management</li>
+                            <li onclick="location.href=''">Job application status</li>
+                            <li onclick="location.href=''">Custom Information</li>
+                            <li onclick="location.href=''">Scraped notice</li>
+                        </ul>
+                    </ul>
+                    <ul>
+                        <li class="sitemap-subtit login" onclick="location.href='mypage.html'"><button onclick="location.href='login.html'">Login/Join the
+                                membership</button></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //end 모바일 햄버거 -->
+
+    <!-- main -->
+    <main>
+        <div class="main-topslide">
+            <div class="swiper mySwiper mainsilde">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" onclick="location.href='employment.html'">
+                        <div class="swiper-boxshadow"></div>
+                        <div class="swiper-header">
+                            <p>Development occupation</p>
+                            <h1>[KOTRA] Hanmegabina, Vietnam,<br> and production management</h1>
+                        </div>
+                        <img src="assets/images/main1.png" alt="">
+                    </div>
+
+                    <div class="swiper-slide" onclick="location.href='employment.html'">
+                        <div class="swiper-boxshadow"></div>
+                        <div class="swiper-header">
+                            <p>IT/Technology</p>
+                            <h1>Full Free Android App<br> Development Job Boot Camp
+                                Apply now!</h1>
+                        </div>
+                        <img src="assets/images/main2.png" alt="">
+                    </div>
+
+                    <div class="swiper-slide" onclick="location.href='employment.html'">
+                        <div class="swiper-boxshadow"></div>
+                        <div class="swiper-header">
+                            <p>Development occupation</p>
+                            <h1>Performance Advertising (METAD)<br> Marketer Recruitment</h1>
+                        </div>
+                        <img src="assets/images/main1.png" alt="">
+                    </div>
+
+                    <div class="swiper-slide" onclick="location.href='employment.html'">
+                        <div class="swiper-boxshadow"></div>
+                        <div class="swiper-header">
+                            <p>Education, development and employment links</p>
+                            <h1>I'm looking for an educational partner <br>
+                                to work with Freonboarding</h1>
+                        </div>
+                        <img src="assets/images/main2.png" alt="">
+                    </div>
+
+                </div>
+                <div class="bottom-pagination">
+                    <div class="pagination-wr">
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="arrow-slidebox">
+            <div class="swiper mySwiper subslide">
+                <div class="arrow-headtitle slide-arrow">
+                    <h1>Check out the top 100 daily recruitment</h1>
+                    <div class="next-wrbox">
+                        <div class="swiper-button-next"><img src="assets/images/icon/ic_arright_white.png" alt=""></div>
+                        <div class="swiper-button-prev"><img src="assets/images/icon/ic_arleft_white.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" onclick="location.href='enterprise_home.html'">
+                        <div class="swiper-boxshadow shadow2"></div>
+                        <div class="swiper-top">
+                            <p>Gryard</p>
+                            <h1>[Free IT employment]<br>
+                                Java/WebApp/Front, Backend/FullStock/Big Data and more</h1>
+                        </div>
+                        <div class="swiper-bottom">
+                            <div class="s-badge">All times</div>
+                            <p>D-5</p>
+                            <div class="star" onclick="toggleStar(this)">
+                                <img class="empty-star" src="assets/images/icon/ic_star.png" alt="별 아이콘">
+                                <img class="filled-star" src="assets/images/icon/ic_starfill.png" alt="별 아이콘"
+                                    style="display: none;">
+                            </div>
+                        </div>
+                        <img src="assets/images/building1.jpg" alt="">
+                    </div>
+
+                    <div class="swiper-slide" onclick="location.href='enterprise_home.html'">
+                        <div class="swiper-boxshadow shadow2"></div>
+                        <div class="swiper-top">
+                            <p>BRAVE & YOUNG DISTRIBUTORS LTD.</p>
+                            <h1>Recruitment of new employees at Kiwoom Financial Center in 2024</h1>
+                        </div>
+                        <div class="swiper-bottom">
+                            <div class="s-badge alarm">Immediate</div>
+                            <p>D-5</p>
+                            <div class="star" onclick="toggleStar(this)">
+                                <img class="empty-star" src="assets/images/icon/ic_star.png" alt="별 아이콘">
+                                <img class="filled-star" src="assets/images/icon/ic_starfill.png" alt="별 아이콘"
+                                    style="display: none;">
+                            </div>
+                        </div>
+                        <img src="assets/images/building2.jpg" alt="">
+                    </div>
+
+                    <div class="swiper-slide" onclick="location.href='enterprise_home.html'">
+                        <div class="swiper-boxshadow shadow2"></div>
+                        <div class="swiper-top">
+                            <p>SJA Inc</p>
+                            <h1>Recruitment of marketers</h1>
+                        </div>
+                        <div class="swiper-bottom">
+                            <div class="s-badge alarm">Immediate</div>
+                            <p>D-18</p>
+                            <div class="star" onclick="toggleStar(this)">
+                                <img class="empty-star" src="assets/images/icon/ic_star.png" alt="별 아이콘">
+                                <img class="filled-star" src="assets/images/icon/ic_starfill.png" alt="별 아이콘"
+                                    style="display: none;">
+                            </div>
+                        </div>
+                        <img src="assets/images/building3.jpg" alt="">
+                    </div>
+
+                    <div class="swiper-slide" onclick="location.href='enterprise_home.html'">
+                        <div class="swiper-boxshadow shadow2"></div>
+                        <div class="swiper-top">
+                            <p>LEADCYCLE</p>
+                            <h1>Recruitment of maintenance of semiconductor equipment</h1>
+                        </div>
+                        <div class="swiper-bottom">
+                            <div class="s-badge">All times</div>
+                            <p>D-36</p>
+                            <div class="star" onclick="toggleStar(this)">
+                                <img class="empty-star" src="assets/images/icon/ic_star.png" alt="별 아이콘">
+                                <img class="filled-star" src="assets/images/icon/ic_starfill.png" alt="별 아이콘"
+                                    style="display: none;">
+                            </div>
+                        </div>
+                        <img src="assets/images/building4.jpg" alt="">
+                    </div>
+
+                    <div class="swiper-slide" onclick="location.href='enterprise_home.html'">
+                        <div class="swiper-boxshadow shadow2"></div>
+                        <div class="swiper-top">
+                            <p>Sky Enterprises Limited</p>
+                            <h1>Recruitment of marketers</h1>
+                        </div>
+                        <div class="swiper-bottom">
+                            <div class="s-badge">All times</div>
+                            <p>D-20</p>
+                            <div class="star" onclick="toggleStar(this)">
+                                <img class="empty-star" src="assets/images/icon/ic_star.png" alt="별 아이콘">
+                                <img class="filled-star" src="assets/images/icon/ic_starfill.png" alt="별 아이콘"
+                                    style="display: none;">
+                            </div>
+                        </div>
+                        <img src="assets/images/building5.jpg" alt="">
+                    </div>
+
+                    <div class="swiper-slide" onclick="location.href='enterprise_home.html'">
+                        <div class="swiper-boxshadow shadow2"></div>
+                        <div class="swiper-top">
+                            <p>DELIVERY K VIETNAM</p>
+                            <h1>Recruitment of new employees for general workers in 2024</h1>
+                        </div>
+                        <div class="swiper-bottom">
+                            <div class="s-badge">All times</div>
+                            <p>D-5</p>
+                            <div class="star" onclick="toggleStar(this)">
+                                <img class="empty-star" src="assets/images/icon/ic_star.png" alt="별 아이콘">
+                                <img class="filled-star" src="assets/images/icon/ic_starfill.png" alt="별 아이콘"
+                                    style="display: none;">
+                            </div>
+                        </div>
+                        <img src="assets/images/building6.jpg" alt="">
+                    </div>
+
+                    <div class="swiper-slide" onclick="location.href='enterprise_home.html'">
+                        <div class="swiper-boxshadow shadow2"></div>
+                        <div class="swiper-top">
+                            <p>Sky Enterprises Limited</p>
+                            <h1>Recruitment of maintenance of semiconductor equipment</h1>
+                        </div>
+                        <div class="swiper-bottom">
+                            <div class="s-badge">All times</div>
+                            <p>D-5</p>
+                            <div class="star" onclick="toggleStar(this)">
+                                <img class="empty-star" src="assets/images/icon/ic_star.png" alt="별 아이콘">
+                                <img class="filled-star" src="assets/images/icon/ic_starfill.png" alt="별 아이콘"
+                                    style="display: none;">
+                            </div>
+                        </div>
+                        <img src="assets/images/building7.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="basic-layoutbox">
+            <div class="arrow-headtitle">
+                <h1>stories of experienced people</h1>
+                <img src="assets/images/icon/ic_right.png" alt="" onclick="location.href='community.html'">
+            </div>
+            <ul data-aos="fade-up">
+                <li onclick="location.href='commu_inner.html'">
+                    <div class="layout-img">
+                        <img src="assets/images/community1.png" alt="">
+                    </div>
+                    <div class="layout-text">
+                        <h3>I imagine the future! [Kim Sojin's career cocktail]</h3>
+                        <p>When I was working in my old office, there was a window seat made of whole glass, and for
+                            some reason there was a small crack. At first, it was so small that I couldn't recognize it.
+                        </p>
+                        <p class="subject">A job interview</p>
+                    </div>
+                </li>
+                <li onclick="location.href='commu_inner.html'">
+                    <div class="layout-img">
+                        <img src="assets/images/community2.png" alt="">
+                    </div>
+                    <div class="layout-text">
+                        <h3>[Dae Sang-related company] Inside you, I'm here</h3>
+                        <p>The 'projective identification' referred to in the theory of subject relations is one of the
+                            defense mechanisms, which is to separate bad or unwanted attributes from within oneself and
+                            project and manipulate those attributes to others.</p>
+                        <p class="subject">A job interview</p>
+                    </div>
+                </li>
+                <li onclick="location.href='commu_inner.html'">
+                    <div class="layout-img">
+                        <img src="assets/images/community3.png" alt="">
+                    </div>
+                    <div class="layout-text">
+                        <h3>[I decided not to misunderstand what I said] [Episode 1]</h3>
+                        <p>I decided not to misunderstand what I said. Maybe you can misunderstand what I said and
+                            protect me?</p>
+                        <p class="subject">Interview review</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="ad-banner">
+            <div class="left-text">
+                <p>Matching AI recommendations</p>
+                <h1>AI recommends positions according to my job</h1>
+            </div>
+            <button>Going to do it</button>
+        </div>
+
+        <div class="theme-layout">
+            <div class="arrow-headtitle">
+                <h1>Check by theme</h1>
+                <img src="assets/images/icon/ic_right.png" alt="" onclick="location.href='employment.html'">
+            </div>
+            <ul data-aos="fade-up">
+                <li onclick="location.href='employment.html'">
+                    <div class="swiper-boxshadow"></div>
+                    <h3>Collecting by Country</h3>
+                    <div class="theme-bottom">
+                        <img src="assets/images/country1.png" alt="">
+                        <img src="assets/images/country2.png" alt="">
+                        <img src="assets/images/country3.png" alt="">
+                        <img src="assets/images/country4.png" alt="">
+                        <p>+556</p>
+                    </div>
+                    <img src="assets/images/theme1.png" alt="" class="backimg">
+                </li>
+                <li onclick="location.href='employment.html'">
+                    <div class="swiper-boxshadow"></div>
+                    <h3>Collecting by Job</h3>
+                    <div class="theme-bottom">
+                        <img src="assets/images/company6.png" alt="">
+                        <img src="assets/images/company2.png" alt="">
+                        <img src="assets/images/company7.png" alt="">
+                        <img src="assets/images/company4.png" alt="">
+                        <p>+3506</p>
+                    </div>
+                    <img src="assets/images/theme2.png" alt="" class="backimg">
+                </li>
+                <li onclick="location.href='employment.html'">
+                    <div class="swiper-boxshadow"></div>
+                    <h3>Collecting by company</h3>
+                    <div class="theme-bottom">
+                        <img src="assets/images/company1.png" alt="">
+                        <img src="assets/images/company7.png" alt="">
+                        <img src="assets/images/company5.png" alt="">
+                        <img src="assets/images/company2.png" alt="">
+                        <p>+288</p>
+                    </div>
+                    <img src="assets/images/theme3.png" alt="" class="backimg">
+                </li>
+                <li onclick="location.href='employment.html'">
+                    <div class="swiper-boxshadow"></div>
+                    <h3>Collecting by Industry</h3>
+                    <div class="theme-bottom">
+                        <img src="assets/images/company5.png" alt="">
+                        <img src="assets/images/company1.png" alt="">
+                        <img src="assets/images/company6.png" alt="">
+                        <img src="assets/images/company7.png" alt="">
+                        <p>+465</p>
+                    </div>
+                    <img src="assets/images/theme4.png" alt="" class="backimg">
+                </li>
+            </ul>
+        </div>
+
+        <div class="background-wrapper">
+            <div class="background-layout">
+                <div class="swiper mySwiper subslide">
+                    <div class="arrow-headtitle slide-arrow">
+                        <h1>Vivid interview review!</h1>
+                        <div class="next-wrbox">
+                            <div class="swiper-button-next"><img src="assets/images/icon/ic_arright_white.png" alt="">
+                            </div>
+                            <div class="swiper-button-prev"><img src="assets/images/icon/ic_arleft_white.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" onclick="location.href='community_story.html'">
+                            <div class="layout-img">
+                                <img src="assets/images/community4.png" alt="">
+                            </div>
+                            <div class="layout-text">
+                                <h3>I imagine the future! [Kim Sojin's career cocktail]</h3>
+                                <p>When I was working in my old office, there was a window seat made of whole glass, and
+                                    for some reason there was a small crack. At first, it was so small that I couldn't
+                                    recognize it.</p>
+                                <p class="subject">A job interview</p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide" onclick="location.href='community_story.html'">
+                            <div class="layout-img">
+                                <img src="assets/images/community5.png" alt="">
+                            </div>
+                            <div class="layout-text">
+                                <h3>[Donald Norman's 5th special lecture on UX]</h3>
+                                <p>It is "forget" that is called a curse or a blessing to a person. Memory always makes
+                                    us feel sorry for it in the process of working or learning. </p>
+                                <p class="subject">A job interview</p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide" onclick="location.href='community_story.html'">
+                            <div class="layout-img">
+                                <img src="assets/images/community2.png" alt="">
+                            </div>
+                            <div class="layout-text">
+                                <h3>Open AI's K Startup Interview Review</h3>
+                                <p>It's long past the days when people applied for papers when they registered job
+                                    postings on recruitment platforms such as People, Job Korea, and Wanted. </p>
+                                <p class="subject">A job interview</p>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide" onclick="location.href='community_story.html'">
+                            <div class="layout-img">
+                                <img src="assets/images/community4.png" alt="">
+                            </div>
+                            <div class="layout-text">
+                                <h3>I imagine the future! [Kim Sojin's career cocktail]</h3>
+                                <p>When I was working in my old office, there was a window seat made of whole glass, and
+                                    for some reason there was a small crack. At first, it was so small that I couldn't
+                                    recognize it. </p>
+                                <p class="subject">A job interview</p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide" onclick="location.href='community_story.html'">
+                            <div class="layout-img">
+                                <img src="assets/images/community5.png" alt="">
+                            </div>
+                            <div class="layout-text">
+                                <h3>[Donald Norman's 5th special lecture on UX]</h3>
+                                <p>When I was working in my old office, there was a window seat made of whole glass, and
+                                    for some reason there was a small crack. At first, it was so small that I couldn't
+                                    recognize it. </p>
+                                <p class="subject">A job interview</p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide" onclick="location.href='community_story.html'">
+                            <div class="layout-img">
+                                <img src="assets/images/community2.png" alt="">
+                            </div>
+                            <div class="layout-text">
+                                <h3>Open AI's K Startup Interview Review</h3>
+                                <p>When I was working in my old office, there was a window seat made of whole glass, and
+                                    for some reason there was a small crack. At first, it was so small that I couldn't
+                                    recognize it. </p>
+                                <p class="subject">A job interview</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottombanner-wr">
+            <div class="ad-bottombanner" data-aos="fade-up">
+                <div class="adbox">
+                    <div class="swiper-boxshadow"></div>
+                    <div class="inner-text">
+                        <p>Matching AI recommendations</p>
+                        <h1>AI recommends a position to suit my job!</h1>
+                        <p class="bottom">Going to do it</p>
+                    </div>
+                    <img src="assets/images/1.png" alt="">
+                </div>
+                <div class="adbox">
+                    <div class="swiper-boxshadow"></div>
+                    <div class="inner-text">
+                        <p>Resume</p>
+                        <h1>Interview suggestions that come to you just by registering for your resume!</h1>
+                        <p class="bottom">Going to do it</p>
+                    </div>
+                    <img src="assets/images/2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- //end main -->
+
+    <!-- footer -->
+    <footer id="footer" class="footer">
+        <div class="inner">
+            <div class="footer-top">
+                <a href="" class="footer-branding"><img src="assets/images/logo_header.png" alt="Logo"></a>
+                <ul class="footer-menu">
+                    <li class="footer-menu-item"><a href="">Customer Service</a></li>
+                    <li class="footer-menu-item"><a href="">Personal Information Processing Policy</a></li>
+                    <li class="footer-menu-item"><a href="">Terms and Conditions of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-cont">
+
+                <ul class="footer-addr-list">
+                    <li class="footer-addr-item">Business registration number : 759-90-01645</li>
+                    <li class="footer-addr-item">Overseas paid job placement business license number : F1401020210001
+                    </li>
+                    <li class="footer-addr-item">Domestic paid job placement business license number : No.
+                        2021-3460177-14-5-00008</li>
+                    <li class="footer-addr-item">401-219, 300, Dongdaegu-ro, Suseong-gu, Daegu, Republic of Korea.
+                        info@twosto.com │ (+82) 10-3809-9055</li>
+                </ul>
+                <p class="footer-copyright">Copyright © 2STO All Rights Reserved</p>
+
+            </div>
+        </div>
+    </footer>
+    <!-- //end footer -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Jquery JS-->
+    <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+    <script>
+        AOS.init();
+
+        var mainsilde = new Swiper(".main-topslide .mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                type: "progressbar",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            slidesPerView: 'auto',
+            loop: true,
+            autoplay: {
+                delay: 4000,
+            },
+            speed: 1000,
+        });
+
+        var subslide = new Swiper(".arrow-slidebox .mySwiper,.background-layout .mySwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            slidesPerView: 'auto',
+            autoplay: {
+                delay: 2000,
+            },
+            speed: 1000,
+        });
+
+        // 검색창 모달
+        function showModal() {
+            var modal = document.getElementById("myModal");
+            modal.style.display = "block";
+        }
+
+        // 모달을 닫는 함수
+        function closeModal() {
+            var modal = document.getElementById("myModal");
+            modal.style.display = "none";
+        }
+
+        // 모달 닫기 버튼에 클릭 이벤트 추가
+        document.getElementsByClassName("close")[0].onclick = function () {
+            closeModal();
+        };
+
+        // 검색 버튼에 클릭 이벤트 추가
+        document.getElementById("myBtn").onclick = function () {
+            showModal();
+        };
+
+        // 모달 외부를 클릭하면 모달이 닫히도록 설정
+        window.onclick = function (event) {
+            var modal = document.getElementById("myModal");
+            if (event.target == modal) {
+                closeModal();
+            }
+        };
+    </script>
+</body>
+
+</html>

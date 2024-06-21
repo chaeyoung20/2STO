@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://2sto_local.com/">
+    <meta property="og:title" content="2STO Home">
+    <meta property="og:image" content="http://2sto_local.com/assets/images/opengraph.png">
+    <meta property="og:image" content="assets/images/opengraph.png"/>
+    <meta property="og:description" content="글로벌 채용을 향한 첫 걸음을 내딛어 보세요!">
+    <meta property="og:site_name" content="2STO">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <title>2STO 해외취업</title>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    
+    <!-- fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+
+    <!--Favicons-->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/fa/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/fa/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/fa/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/fa/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/fa/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/fa/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/fa/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/fa/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/fa/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/fa/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/fa/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/fa/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/fa/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/fa/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+    <!-- header -->
+    <header id="sri-header">
+
+        <div class="navigation">
+            <a href="main.html" class="header-logo"><img src="assets/images/logo_header.png" alt=""></a>
+            <ul class="left-header">
+                <li onclick="location.href='employment.html'">Employment</li>
+                <li onclick="location.href='resume.html'">Resume</li>
+                <li onclick="location.href='community_story.html'">Interview</li>
+                <li onclick="location.href='community.html'" class="nav-active">Community</li>
+                <li onclick="location.href='mypage.html'">Mypage</li>
+            </ul>
+
+            <ul class="right-header">
+                <li id="myBtn"><img src="assets/images/icon/ic_search.png" alt=""></li>
+                <li onclick="location.href='login.html'"><button>Login/Join the membership</button></li>
+            </ul>
+
+            <div class="header-ham hamModal"></div>
+        </div>
+
+        <div class="navi-total">
+            <div id="sri-index">
+                <div class="panel-menu menu">
+                    <div class="major recruit">
+                        <span class="depth1"><span class="txt" onclick="location.href='employment.html'">Employment<img
+                                    src="assets/images/icon/ic_arright_grey.png" alt=""></span></span>
+                        <ul class="depth2">
+                            <li><a href=""><span class="txt">By country</span></a></li>
+                            <li><a href=""><span class="txt">By job</span></a></li>
+                            <li><a href=""><span class="txt">By company</span></a></li>
+                            <li><a href=""><span class="txt">By Industry</span></a></li>
+                            <li><a href=""><span class="txt">Popularity(TOP)</span></a></li>
+                            <li><a href=""><span class="txt">Power Company(Advertisement)</span></a></li>
+                            <li><a href=""><span class="txt">AI Recommended Matching</span></a></li>
+
+                        </ul>
+                    </div>
+                    <div class="major">
+                        <span class="depth1"><span class="txt" onclick="location.href='resume.html'">Resume<img
+                                    src="assets/images/icon/ic_arright_grey.png" alt=""></span></span>
+                        <ul class="depth2">
+                            <li><a href=""><span class="txt">Resume Writing</span></a></li>
+                            <li><a href=""><span class="txt">Resume Management</span></a></li>
+                            <li><a href=""><span class="txt">AI proofreading</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="major">
+                        <span class="depth1"><span class="txt"
+                                onclick="location.href='community_story.html'">Interview<img
+                                    src="assets/images/icon/ic_arright_grey.png" alt=""></span></span>
+                        <ul class="depth2">
+                            <li><a href=""><span class="txt">Enterprise Review</span></a></li>
+                            <li><a href=""><span class="txt">Salary</span></a></li>
+                            <li><a href=""><span class="txt">Corporate Analysis Report</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="major">
+                        <span class="depth1"><span class="txt" onclick="location.href='community.html'">Community<img
+                                    src="assets/images/icon/ic_arright_grey.png" alt=""></span></span>
+                        <ul class="depth2">
+                            <li><a href=""><span class="txt">Created by Community</span></a></li>
+                            <li><a href=""><span class="txt">Interview review</span></a></li>
+                            <li><a href=""><span class="txt">Job Interview</span></a></li>
+                            <li><a href=""><span class="txt">Application form for successful applicants</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="major">
+                        <span class="depth1"><span class="txt" onclick="location.href='mypage.html'">Mypage<img
+                                    src="assets/images/icon/ic_arright_grey.png" alt=""></span></span>
+                        <ul class="depth2">
+                            <li><a href=""><span class="txt">Member information management</span></a></li>
+                            <li><a href=""><span class="txt">Resume Management</span></a></li>
+                            <li><a href=""><span class="txt">Job application status</span></a></li>
+                            <li><a href=""><span class="txt">Custom Information</span></a></li>
+                            <li><a href=""><span class="txt">Scraped notice</span></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 검색 모달창 -->
+        <div id="myModal" class="modal search-modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="choice-inner">
+
+                    <div class="selectBoxList">
+                        <!-- selectBox1 -->
+                        <div class="box">
+                            <div class="selectBox2 ">
+                                <button class="label"><img src="assets/images/icon/ic_location_grey.png" alt="">
+                                    <p>Country selection</p>
+                                </button>
+                                <ul class="optionList">
+                                    <li class="optionItem">The United States</li>
+                                    <li class="optionItem">Japan</li>
+                                    <li class="optionItem">China and Hong Kong</li>
+                                    <li class="optionItem">Asia and the Middle East</li>
+                                    <li class="optionItem">North and Central America</li>
+                                    <li class="optionItem">South America</li>
+                                    <li class="optionItem">Europe</li>
+                                    <li class="optionItem">Oceania</li>
+                                    <li class="optionItem">Africa</li>
+                                    <li class="optionItem">Antarctica</li>
+                                    <li class="optionItem">Other overseas</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- selectBox2 -->
+                        <div class="box">
+                            <div class="selectBox2  ">
+                                <button class="label"><img src="assets/images/icon/ic_location_grey.png" alt="">
+                                    <p>City selection</p>
+                                </button>
+                                <ul class="optionList">
+                                    <li class="optionItem">Tokyo</li>
+                                    <li class="optionItem">New York</li>
+                                    <li class="optionItem">London</li>
+                                    <li class="optionItem">Paris</li>
+                                    <li class="optionItem">Madrid</li>
+                                    <li class="optionItem">Dubai</li>
+                                    <li class="optionItem">Rome</li>
+                                    <li class="optionItem">Barcelona</li>
+                                    <li class="optionItem">seoul</li>
+                                    <li class="optionItem">Sydney</li>
+                                    <li class="optionItem">Singapore</li>
+                                    <li class="optionItem">Berlin</li>
+                                    <li class="optionItem">fly</li>
+                                    <li class="optionItem">Amsterdam</li>
+                                    <li class="optionItem">Hong Kong</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- selectBox3 -->
+                        <div class="box">
+                            <div class="selectBox2  ">
+                                <button class="label"><img src="assets/images/icon/ic_job_grey.png" alt="">
+                                    <p>A career choice</p>
+                                </button>
+                                <ul class="optionList">
+                                    <li class="optionItem">Planning and Strategy</li>
+                                    <li class="optionItem">Marketing, Publicity, Research</li>
+                                    <li class="optionItem">Accounting, Taxation, Finance</li>
+                                    <li class="optionItem">HR, Labor, HRD</li>
+                                    <li class="optionItem">general affairs, legal affairs, affairs</li>
+                                    <li class="optionItem">IT development and data</li>
+                                    <li class="optionItem">Design</li>
+                                    <li class="optionItem">Sales, Trade</li>
+                                    <li class="optionItem">Customer consultation and TM</li>
+                                    <li class="optionItem">Purchases, Materials, Logistics</li>
+                                    <li class="optionItem">Product planning and MD</li>
+                                    <li class="optionItem">Driving, transportation, and delivery</li>
+                                    <li class="optionItem">Service</li>
+                                    <li class="optionItem">Production</li>
+                                    <li class="optionItem">Construction and Architecture</li>
+                                    <li class="optionItem">Medical treatment</li>
+                                    <li class="optionItem">Research and R&amp;D</li>
+                                    <li class="optionItem">Education</li>
+                                    <li class="optionItem">Media, Culture, Sports</li>
+                                    <li class="optionItem">Finance and insurance</li>
+                                    <li class="optionItem">Public welfare</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="search-container">
+                        <div class="search-box">
+                            <img src="assets/images/icon/ic_search_grey.png" alt="">
+                            <input type="text" class="search-input" placeholder="Enter search terms">
+                        </div>
+                    </div>
+
+                    <button class="search-button">Search</button>
+                </div>
+
+                <!-- 추천 검색어, 인기 검색어 -->
+                <div class="recommend-search">
+                    <h1>Recommended search terms</h1>
+                    <ul>
+                        <li>#Top 2-5% annual salary</li>
+                        <li>#Resignation rate of 5% or less</li>
+                        <li>#Working 4 days a week</li>
+                        <li>#35 hours a week</li>
+                    </ul>
+                </div>
+                <div class="popular-search">
+                    <div class="popular-header">
+                        <h1>A popular search term</h1>
+                        <p>As of 15:00</p>
+                    </div>
+                    <ul>
+                        <li>1. I flood</li>
+                        <li>2. Front End</li>
+                        <li>3. Designer</li>
+                        <li>4. Data</li>
+                        <li>5. Service planning</li>
+                        <li>6. General affairs</li>
+                        <li>7. Marketing</li>
+                        <li>8. Manager</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <!-- 검색 모달창:end -->
+
+    </header>
+    <!-- //end header -->
+
+    <!-- 모바일 햄버거 -->
+    <div class="modalH hamModalBox">
+        <div class="modal-content sitemap-modal">
+            <div class="modal-header">
+                <div class="container">
+                    <h1 id="logo"><a href="main.html"><img src="assets/images/logo_header.png"></a></h1>
+                </div>
+                <span class="close hamClose"></span>
+            </div>
+            <div class="modal-inner">
+                <div class="site-menu">
+                    <ul>
+                        <li class="sitemap-subtit" onclick="location.href='employment.html'">Employment</li>
+                        <ul class="sub-flexmenu">
+                            <li onclick="location.href=''">By country</li>
+                            <li onclick="location.href=''">By job</li>
+                            <li onclick="location.href=''">By company</li>
+                            <li onclick="location.href=''">By Industry</li>
+                            <li onclick="location.href=''">Popularity(TOP)</li>
+                            <li onclick="location.href=''">Power Company(Advertisement)</li>
+                            <li onclick="location.href=''">AI Recommended Matching</li>
+                        </ul>
+                    </ul>
+                    <div class="lined"></div>
+                    <ul>
+                        <li class="sitemap-subtit" onclick="location.href='resume.html'">Resume</li>
+                        <ul class="sub-flexmenu">
+                            <li onclick="location.href=''">Resume Writing</li>
+                            <li onclick="location.href=''">Resume Management</li>
+                            <li onclick="location.href=''">AI proofreading</li>
+                        </ul>
+                    </ul>
+                    <div class="lined"></div>
+                    <ul>
+                        <li class="sitemap-subtit" onclick="location.href='community_story.html'">Interview</li>
+                        <ul class="sub-flexmenu">
+                            <li onclick="location.href=''">Enterprise Review</li>
+                            <li onclick="location.href=''">Salary</li>
+                            <li onclick="location.href=''">Corporate Analysis Report</li>
+                        </ul>
+                    </ul>
+                    <div class="lined"></div>
+                    <ul>
+                        <li class="sitemap-subtit mobile-active" onclick="location.href='community.html'">Community</li>
+                        <ul class="sub-flexmenu">
+                            <li onclick="location.href=''">Created by Community</li>
+                            <li onclick="location.href=''">Interview review</li>
+                            <li onclick="location.href=''">Job Interview</li>
+                            <li onclick="location.href=''">Application form for successful applicants</li>
+                        </ul>
+                    </ul>
+                    <div class="lined"></div>
+                    <ul>
+                        <li class="sitemap-subtit" onclick="location.href='mypage.html'">Mypage</li>
+                        <ul class="sub-flexmenu">
+                            <li onclick="location.href=''">Member information management</li>
+                            <li onclick="location.href=''">Resume Management</li>
+                            <li onclick="location.href=''">Job application status</li>
+                            <li onclick="location.href=''">Custom Information</li>
+                            <li onclick="location.href=''">Scraped notice</li>
+                        </ul>
+                    </ul>
+                    <ul>
+                        <li class="sitemap-subtit login" onclick="location.href='login.html'"><button>Login/Join the
+                                membership</button></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //end 모바일 햄버거 -->
+
+    <!-- main -->
+    <main>
+        <div class="community-feedwr">
+            <!-- 커뮤니티 프로필 왼쪽박스 -->
+            <div class="feed-leftbox">
+                <div class="profile-box">
+                    <!-- 프로필 이미지 들어가는 곳 -->
+                    <img src="assets/images/ic-userdefault3.png" alt="">
+                    <!-- 닉네임, 직업 들어가는 곳 -->
+                    <div class="profile-text">
+                        <h3>Angelina Jolie</h3>
+                        <p>Web Designer</p>
+                    </div>
+                </div>
+                <button type="button">Going to write</button>
+            </div>
+            <!-- 커뮤니티 프로필 왼쪽박스:end -->
+
+            <!-- 커뮤니티 오른쪽박스 -->
+            <div class="feed-rightbox">
+                <!-- 커뮤니티 종류별 tab -->
+                <div class="tab back-header">
+                    <!-- 뒤로가기 버튼 -->
+                    <img src="assets/images/icon/ic_arleft.png" alt="" onclick="location.href='community.html'">
+                    <!-- 커뮤니티 게시물 제목 -->
+                    <h1>🌅 On the way to work</h1>
+                </div>
+
+                <!-- 게시글 내용 -->
+                <div class="commu-detailbox">
+                    <div class="writer-header">
+                        <!-- 작성자 정보 profile -->
+                        <div class="profile-box">
+                            <!-- 프로필 이미지 들어가는 곳 -->
+                            <img src="assets/images/ic-userdefault3.png" alt="">
+                            <!-- 닉네임, 직업 들어가는 곳 -->
+                            <div class="profile-text">
+                                <h3>Angelina Jolie</h3>
+                                <p>Web Designer</p>
+                            </div>
+                        </div>
+                        <!-- 작성 업로드 시간 -->
+                        <p class="time">1 hours ago</p>
+                    </div>
+
+                    <!-- 게시물 -->
+                    <div class="post-contents">
+                        <!-- 게시글 작성 이미지썸네일 -->
+                        <div class="inner-imgbox">
+                            <img src="assets/images/inner.jpg" alt="">
+                        </div>
+
+                        <div class="inner-textbox">
+                            <!-- 게시글 제목 -->
+                            <h3>🌅 On the way to work, a platform - a source of strength that can be achieved</h3><Br>
+                            <!-- 게시글 내용 -->
+                            <p>"In order to make it once, you have to fail 100 times. You have to climb the same cliff
+                                every day, repeat the same moves, and keep falling. Slowly repeat, develop, and get
+                                better. Then at some point you conquer the mountain." _Keller Rinaudo, CEO of Zipline,
+                                in an interview with Sequire Capital in 2022 > Read right here:
+                                https://www.ep9.co/record/69?seq=1&format=cover&share=189600081 After work, I run
+                                whenever I have free time on weekends. My first start to run was anger. When I was in
+                                high school preparing for my college entrance exam, I ran in the gym whenever I felt
+                                like I was losing my anger every step by step. I started running again 3-4 years later.
+                                For a sense of accomplishment and freedom rather than anger. Achievement, not freedom,
+                                it's not my main job. I'm not a runner. Running is a device that tells me that I'm
+                                living a healthy life. When I'm busy, I don't have time to run. Running means I can
+                                afford to take care of myself even a little. It clears your mind. Running is also an act
+                                of "building the strength to maintain a healthy life." Some days I don't run very well,
+                                and some days my record is much shorter than usual. I feel proud to have a great record.
+                                These days, I focus more on days when my record is bad. I try to see how I feel that I
+                                achieved my goal until the end even though I was in a difficult condition to run. How
+                                can there be only good days every day. Sometimes it's hard, sometimes it's hard. It's
+                                like training to overcome it. The weather has gotten a lot better. I'm going to run hard
+                                this week, too!</p>
+                        </div>
+                    </div>
+                    <!-- 게시물:end -->
+
+                    <div class="commu-bottom">
+                        <!-- 좋아요, 댓글달기, 공유기능 -->
+                        <div class="iconbox">
+                            <div class="heart" onclick="toggleHeart(this)">
+                                <img class="empty-heart" src="assets/images/icon/ic_heart.png" alt="empty-heart icon">
+                                <img class="filled-heart" src="assets/images/icon/ic_heart_fill.png"
+                                    alt="fill-heart icon" style="display: none;">
+                            </div>
+                            <img src="assets/images/icon/ic_chat_grey.png" alt="">
+                            <img src="assets/images/icon/ic_share_grey.png" alt="">
+                        </div>
+                        <!--  댓글 작성자 프로필 기능, 좋아요 수, 댓글 수 -->
+                        <div class="like-box">
+                            <div class="like-profile">
+                                <img src="assets/images/company1.png" alt="">
+                                <img src="assets/images/company2.png" alt="">
+                                <img src="assets/images/ic-userdefault3.png" alt="">
+                            </div>
+                            <p class="like">Like <span>4</span></p>
+                            <p>Comments <span>2</span></p>
+                        </div>
+                    </div>
+
+                    <!-- 댓글 작성 -->
+                    <div class="comment-wrapper">
+                        <div class="comment-header">
+                            <div class="profile-box">
+                                <!-- 댓글작성자 이미지 들어가는 곳 -->
+                                <img src="assets/images/ic-userdefault3.png" alt="">
+                                <!-- 작성자닉네임, 댓글 작성 시간,  -->
+                                <div class="profile-text">
+                                    <h3>Angelina Jolie</h3>
+                                    <p class="time">6 hours ago</p>
+                                </div>
+                            </div>
+                            <button><img src="assets/images/icon/ic_more.png"alt=""></button>
+
+                        </div>
+
+                        <!-- 댓글 내용 -->
+                        <p>Thank you so much for sharing your thoughts on your way to work in the morning! You look
+                            amazing running for a healthy life, feeling accomplished and free. 😊 Learning how to handle
+                            yourself through constant challenges and growth seems like a precious experience. I hope you
+                            take one step further in your goals this week! Fighting! 💪🌟
+                        </p>
+
+                        <!-- 댓글 작성란 -->
+                        <div class="write-wrbox">
+                            <div class="comment-write">
+                                <input type="text" placeholder="Log in and leave a comment">
+                                <button type="button"><img src="assets/images/icon/ic_send.png" alt=""></button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- 게시글 내용:end -->
+
+            </div>
+            <!-- 커뮤니티 오른쪽박스:end -->
+        </div>
+    </main>
+    <!-- //end main -->
+
+    <!-- footer -->
+    <footer id="footer" class="footer">
+        <div class="inner">
+            <div class="footer-top">
+                <a href="" class="footer-branding"><img src="assets/images/logo_header.png" alt="Logo"></a>
+                <ul class="footer-menu">
+                    <li class="footer-menu-item"><a href="">Customer Service</a></li>
+                    <li class="footer-menu-item"><a href="">Personal Information Processing Policy</a></li>
+                    <li class="footer-menu-item"><a href="">Terms and Conditions of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-cont">
+
+                <ul class="footer-addr-list">
+                    <li class="footer-addr-item">Business registration number : 759-90-01645</li>
+                    <li class="footer-addr-item">Overseas paid job placement business license number : F1401020210001
+                    </li>
+                    <li class="footer-addr-item">Domestic paid job placement business license number : No.
+                        2021-3460177-14-5-00008</li>
+                    <li class="footer-addr-item">401-219, 300, Dongdaegu-ro, Suseong-gu, Daegu, Republic of Korea.
+                        info@twosto.com │ (+82) 10-3809-9055</li>
+                </ul>
+                <p class="footer-copyright">Copyright © 2STO All Rights Reserved</p>
+
+            </div>
+        </div>
+    </footer>
+    <!-- //end footer -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Jquery JS-->
+    <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+    <script>
+        // 검색창 모달
+        function showModal() {
+            var modal = document.getElementById("myModal");
+            modal.style.display = "block";
+        }
+
+        // 모달을 닫는 함수
+        function closeModal() {
+            var modal = document.getElementById("myModal");
+            modal.style.display = "none";
+        }
+
+        // 모달 닫기 버튼에 클릭 이벤트 추가
+        document.getElementsByClassName("close")[0].onclick = function () {
+            closeModal();
+        };
+
+        // 검색 버튼에 클릭 이벤트 추가
+        document.getElementById("myBtn").onclick = function () {
+            showModal();
+        };
+
+        // 모달 외부를 클릭하면 모달이 닫히도록 설정
+        window.onclick = function (event) {
+            var modal = document.getElementById("myModal");
+            if (event.target == modal) {
+                closeModal();
+            }
+        };
+    </script>
+</body>
+
+</html>

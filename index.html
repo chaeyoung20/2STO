@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta property="og:type" content="website">
-    <!-- <meta property="og:url" content="http://sourim_local.com/"> -->
+    <meta property="og:url" content="http://2sto_local.com/">
     <meta property="og:title" content="2STO Home">
-    <!-- <meta property="og:image" content="http://midamjang.daerida.com/assets/images/m03.jpg"> -->
-    <meta property="og:image" content="/assets/images/opengraph.png" />
+    <meta property="og:image" content="http://2sto_local.com/assets/images/opengraph.png">
+    <meta property="og:image" content="assets/images/opengraph.png"/>
     <meta property="og:description" content="글로벌 채용을 향한 첫 걸음을 내딛어 보세요!">
     <meta property="og:site_name" content="2STO">
     <meta property="og:locale" content="en_US">
@@ -21,26 +21,31 @@
     <!-- custom css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
-    <link rel="stylesheet" as="style" crossorigin
-        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+    
+    <!-- fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 
     <!--Favicons-->
-    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/fa/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/fa/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/fa/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/fa/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/fa/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/fa/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/fa/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/fa/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/fa/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/fa/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/fa/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/fa/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/fa/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/fa/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/fa/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/fa/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/fa/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/fa/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/fa/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/fa/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/fa/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/fa/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/fa/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/fa/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/fa/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/fa/favicon-16x16.png">
     <link rel="manifest" href="/assets/images/fa/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -53,18 +58,18 @@
     <header id="sri-header">
 
         <div class="navigation">
-            <a href="" class="header-logo"><img src="assets/images/logo_header.png" alt=""></a>
+            <a href="main.html" class="header-logo"><img src="assets/images/logo_header.png" alt=""></a>
             <ul class="left-header">
-                <li>채용</li>
-                <li>이력서</li>
-                <li>기업·연봉</li>
-                <li>커뮤니티</li>
-                <li>마이페이지</li>
+                <li onclick="location.href='employment.html'">Employment</li>
+                <li onclick="location.href='resume.html'">Resume</li>
+                <li onclick="location.href='community_story.html'">Interview</li>
+                <li onclick="location.href='community.html'">Community</li>
+                <li onclick="location.href='mypage.html'">Mypage</li>
             </ul>
 
             <ul class="right-header">
-                <li><img src="assets/images/icon/ic_search.png" alt=""></li>
-                <li><button>로그인/회원가입</button></li>
+                <li id="myBtn"><img src="assets/images/icon/ic_search.png" alt=""></li>
+                <li onclick="location.href='login.html'"><button onclick="location.href='login.html'">Login/Join the membership</button></li>
             </ul>
 
             <div class="header-ham hamModal"></div>
@@ -74,56 +79,57 @@
             <div id="sri-index">
                 <div class="panel-menu menu">
                     <div class="major recruit">
-                        <span class="depth1"><span class="txt">채용<img src="assets/images/icon/ic_arright_grey.png"
-                                    alt=""></span></span>
+                        <span class="depth1"><span class="txt" onclick="location.href='employment.html'">Employment<img
+                                    src="assets/images/icon/ic_arright_grey.png" alt=""></span></span>
                         <ul class="depth2">
-                            <li><a href=""><span class="txt">나라별</span></a></li>
-                            <li><a href=""><span class="txt">직무별</span></a></li>
-                            <li><a href=""><span class="txt">기업별</span></a></li>
-                            <li><a href=""><span class="txt">산업별</span></a></li>
-                            <li><a href=""><span class="txt">인기(TOP)</span></a></li>
-                            <li><a href=""><span class="txt">파워기업(광고)</span></a></li>
-                            <li><a href=""><span class="txt">AI 추천 매칭</span></a></li>
+                            <li><a href=""><span class="txt">By country</span></a></li>
+                            <li><a href=""><span class="txt">By job</span></a></li>
+                            <li><a href=""><span class="txt">By company</span></a></li>
+                            <li><a href=""><span class="txt">By Industry</span></a></li>
+                            <li><a href=""><span class="txt">Popularity(TOP)</span></a></li>
+                            <li><a href=""><span class="txt">Power Company(Advertisement)</span></a></li>
+                            <li><a href=""><span class="txt">AI Recommended Matching</span></a></li>
 
                         </ul>
                     </div>
                     <div class="major">
-                        <span class="depth1"><span class="txt">이력서<img src="assets/images/icon/ic_arright_grey.png"
-                                    alt=""></span></span>
+                        <span class="depth1"><span class="txt" onclick="location.href='resume.html'">Resume<img
+                                    src="assets/images/icon/ic_arright_grey.png" alt=""></span></span>
                         <ul class="depth2">
-                            <li><a href=""><span class="txt">이력서 작성</span></a></li>
-                            <li><a href=""><span class="txt">이력서 관리</span></a></li>
-                            <li><a href=""><span class="txt">AI 교정</span></a></li>
+                            <li><a href=""><span class="txt">Resume Writing</span></a></li>
+                            <li><a href=""><span class="txt">Resume Management</span></a></li>
+                            <li><a href=""><span class="txt">AI proofreading</span></a></li>
                         </ul>
                     </div>
                     <div class="major">
-                        <span class="depth1"><span class="txt">기업·연봉<img src="assets/images/icon/ic_arright_grey.png"
-                                    alt=""></span></span>
+                        <span class="depth1"><span class="txt"
+                                onclick="location.href='community_story.html'">Interview<img
+                                    src="assets/images/icon/ic_arright_grey.png" alt=""></span></span>
                         <ul class="depth2">
-                            <li><a href=""><span class="txt">기업 리뷰</span></a></li>
-                            <li><a href=""><span class="txt">연봉</span></a></li>
-                            <li><a href=""><span class="txt">기업 분석 보고서</span></a></li>
+                            <li><a href=""><span class="txt">Enterprise Review</span></a></li>
+                            <li><a href=""><span class="txt">Salary</span></a></li>
+                            <li><a href=""><span class="txt">Corporate Analysis Report</span></a></li>
                         </ul>
                     </div>
                     <div class="major">
-                        <span class="depth1"><span class="txt">커뮤니티<img src="assets/images/icon/ic_arright_grey.png"
-                                    alt=""></span></span>
+                        <span class="depth1"><span class="txt" onclick="location.href='community.html'">Community<img
+                                    src="assets/images/icon/ic_arright_grey.png" alt=""></span></span>
                         <ul class="depth2">
-                            <li><a href=""><span class="txt">커뮤니티 작성</span></a></li>
-                            <li><a href=""><span class="txt">면접 후기</span></a></li>
-                            <li><a href=""><span class="txt">직무인터뷰</span></a></li>
-                            <li><a href=""><span class="txt">합격자소서</span></a></li>
+                            <li><a href=""><span class="txt">Created by Community</span></a></li>
+                            <li><a href=""><span class="txt">Interview review</span></a></li>
+                            <li><a href=""><span class="txt">Job Interview</span></a></li>
+                            <li><a href=""><span class="txt">Application form for successful applicants</span></a></li>
                         </ul>
                     </div>
                     <div class="major">
-                        <span class="depth1"><span class="txt">마이페이지<img src="assets/images/icon/ic_arright_grey.png"
-                                    alt=""></span></span>
+                        <span class="depth1"><span class="txt" onclick="location.href='mypage.html'">Mypage<img
+                                    src="assets/images/icon/ic_arright_grey.png" alt=""></span></span>
                         <ul class="depth2">
-                            <li><a href=""><span class="txt">회원정보 관리</span></a></li>
-                            <li><a href=""><span class="txt">이력서 관리</span></a></li>
-                            <li><a href=""><span class="txt">입사지원 현황</span></a></li>
-                            <li><a href=""><span class="txt">맞춤 정보</span></a></li>
-                            <li><a href=""><span class="txt">스크랩한 공고</span></a></li>
+                            <li><a href=""><span class="txt">Member information management</span></a></li>
+                            <li><a href=""><span class="txt">Resume Management</span></a></li>
+                            <li><a href=""><span class="txt">Job application status</span></a></li>
+                            <li><a href=""><span class="txt">Custom Information</span></a></li>
+                            <li><a href=""><span class="txt">Scraped notice</span></a></li>
                         </ul>
                     </div>
 
@@ -131,349 +137,446 @@
 
             </div>
         </div>
+
+        <!-- 검색 모달창 -->
+        <div id="myModal" class="modal search-modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="choice-inner">
+
+                    <div class="selectBoxList">
+                        <!-- selectBox1 -->
+                        <div class="box">
+                            <div class="selectBox2 ">
+                                <button class="label"><img src="assets/images/icon/ic_location_grey.png" alt="">
+                                    <p>Country selection</p>
+                                </button>
+                                <ul class="optionList">
+                                    <li class="optionItem">The United States</li>
+                                    <li class="optionItem">Japan</li>
+                                    <li class="optionItem">China and Hong Kong</li>
+                                    <li class="optionItem">Asia and the Middle East</li>
+                                    <li class="optionItem">North and Central America</li>
+                                    <li class="optionItem">South America</li>
+                                    <li class="optionItem">Europe</li>
+                                    <li class="optionItem">Oceania</li>
+                                    <li class="optionItem">Africa</li>
+                                    <li class="optionItem">Antarctica</li>
+                                    <li class="optionItem">Other overseas</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- selectBox2 -->
+                        <div class="box">
+                            <div class="selectBox2  ">
+                                <button class="label"><img src="assets/images/icon/ic_location_grey.png" alt="">
+                                    <p>City selection</p>
+                                </button>
+                                <ul class="optionList">
+                                    <li class="optionItem">Tokyo</li>
+                                    <li class="optionItem">New York</li>
+                                    <li class="optionItem">London</li>
+                                    <li class="optionItem">Paris</li>
+                                    <li class="optionItem">Madrid</li>
+                                    <li class="optionItem">Dubai</li>
+                                    <li class="optionItem">Rome</li>
+                                    <li class="optionItem">Barcelona</li>
+                                    <li class="optionItem">seoul</li>
+                                    <li class="optionItem">Sydney</li>
+                                    <li class="optionItem">Singapore</li>
+                                    <li class="optionItem">Berlin</li>
+                                    <li class="optionItem">fly</li>
+                                    <li class="optionItem">Amsterdam</li>
+                                    <li class="optionItem">Hong Kong</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- selectBox3 -->
+                        <div class="box">
+                            <div class="selectBox2  ">
+                                <button class="label"><img src="assets/images/icon/ic_job_grey.png" alt="">
+                                    <p>A career choice</p>
+                                </button>
+                                <ul class="optionList">
+                                    <li class="optionItem">Planning and Strategy</li>
+                                    <li class="optionItem">Marketing, Publicity, Research</li>
+                                    <li class="optionItem">Accounting, Taxation, Finance</li>
+                                    <li class="optionItem">HR, Labor, HRD</li>
+                                    <li class="optionItem">general affairs, legal affairs, affairs</li>
+                                    <li class="optionItem">IT development and data</li>
+                                    <li class="optionItem">Design</li>
+                                    <li class="optionItem">Sales, Trade</li>
+                                    <li class="optionItem">Customer consultation and TM</li>
+                                    <li class="optionItem">Purchases, Materials, Logistics</li>
+                                    <li class="optionItem">Product planning and MD</li>
+                                    <li class="optionItem">Driving, transportation, and delivery</li>
+                                    <li class="optionItem">Service</li>
+                                    <li class="optionItem">Production</li>
+                                    <li class="optionItem">Construction and Architecture</li>
+                                    <li class="optionItem">Medical treatment</li>
+                                    <li class="optionItem">Research and R&amp;D</li>
+                                    <li class="optionItem">Education</li>
+                                    <li class="optionItem">Media, Culture, Sports</li>
+                                    <li class="optionItem">Finance and insurance</li>
+                                    <li class="optionItem">Public welfare</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="search-container">
+                        <div class="search-box">
+                            <img src="assets/images/icon/ic_search_grey.png" alt="">
+                            <input type="text" class="search-input" placeholder="Enter search terms">
+                        </div>
+                    </div>
+
+                    <button class="search-button">Search</button>
+                </div>
+
+                <!-- 추천 검색어, 인기 검색어 -->
+                <div class="recommend-search">
+                    <h1>Recommended search terms</h1>
+                    <ul>
+                        <li>#Top 2-5% annual salary</li>
+                        <li>#Resignation rate of 5% or less</li>
+                        <li>#Working 4 days a week</li>
+                        <li>#35 hours a week</li>
+                    </ul>
+                </div>
+                <div class="popular-search">
+                    <div class="popular-header">
+                        <h1>A popular search term</h1>
+                        <p>As of 15:00</p>
+                    </div>
+                    <ul>
+                        <li>1. I flood</li>
+                        <li>2. Front End</li>
+                        <li>3. Designer</li>
+                        <li>4. Data</li>
+                        <li>5. Service planning</li>
+                        <li>6. General affairs</li>
+                        <li>7. Marketing</li>
+                        <li>8. Manager</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <!-- 검색 모달창:end -->
+
     </header>
     <!-- //end header -->
 
     <!-- 모바일 햄버거 -->
-	<div class="modalH hamModalBox">
-		<div class="modal-content sitemap-modal">
-			<div class="modal-header">
-				<div class="container">
-					<h1 id="logo"><a href=""><img src="assets/images/logo_header.png"></a></h1>
-				</div>
-				<span class="close hamClose"></span>
-			</div>
-			<div class="modal-inner">
-				<div class="site-menu">
-					<ul>
-						<li class="sitemap-subtit" onclick="location.href=''">채용</li>
-						<ul class="sub-flexmenu">
-                            <li onclick="location.href=''">나라별</li>
-                            <li onclick="location.href=''">직무별</li>
-                            <li onclick="location.href=''">기업별</li>
-                            <li onclick="location.href=''">산업별</li>
-                            <li onclick="location.href=''">인기(TOP)</li>
-                            <li onclick="location.href=''">파워기업(꽝고)</li>
-                            <li onclick="location.href=''">AI 추천 매칭</li>
-                        </ul>
-					</ul>
-					<div class="lined"></div>
-					<ul>
-						<li class="sitemap-subtit" onclick="location.href=''">이력서</li>
+    <div class="modalH hamModalBox">
+        <div class="modal-content sitemap-modal">
+            <div class="modal-header">
+                <div class="container">
+                    <h1 id="logo"><a href="main.html"><img src="assets/images/logo_header.png"></a></h1>
+                </div>
+                <span class="close hamClose"></span>
+            </div>
+            <div class="modal-inner">
+                <div class="site-menu">
+                    <ul>
+                        <li class="sitemap-subtit" onclick="location.href='employment.html'">Employment</li>
                         <ul class="sub-flexmenu">
-                            <li onclick="location.href=''">이력서 작성</li>
-                            <li onclick="location.href=''">이력서 관리</li>
-                            <li onclick="location.href=''">AI 교정</li>
+                            <li onclick="location.href=''">By country</li>
+                            <li onclick="location.href=''">By job</li>
+                            <li onclick="location.href=''">By company</li>
+                            <li onclick="location.href=''">By Industry</li>
+                            <li onclick="location.href=''">Popularity(TOP)</li>
+                            <li onclick="location.href=''">Power Company(Advertisement)</li>
+                            <li onclick="location.href=''">AI Recommended Matching</li>
                         </ul>
-					</ul>
-					<div class="lined"></div>
-					<ul>
-						<li class="sitemap-subtit" onclick="location.href=''">기업·연봉</li>
-                        <ul class="sub-flexmenu">
-                            <li onclick="location.href=''">기업 리뷰</li>
-                            <li onclick="location.href=''">연봉</li>
-                            <li onclick="location.href=''">기업 분석 보고서</li>
-                        </ul>
-					</ul>
-					<div class="lined"></div>
-					<ul>
-						<li class="sitemap-subtit" onclick="location.href=''">커뮤니티</li>
-                        <ul class="sub-flexmenu">
-                            <li onclick="location.href=''">커뮤니티 작성</li>
-                            <li onclick="location.href=''">면접 후기</li>
-                            <li onclick="location.href=''">직무인터뷰</li>
-                            <li onclick="location.href=''">합격자소서</li>
-                        </ul>
-					</ul>
+                    </ul>
                     <div class="lined"></div>
                     <ul>
-						<li class="sitemap-subtit" onclick="location.href=''">마이페이지</li>
+                        <li class="sitemap-subtit" onclick="location.href='resume.html'">Resume</li>
                         <ul class="sub-flexmenu">
-                            <li onclick="location.href=''">회원정보 관리</li>
-                            <li onclick="location.href=''">이력서 관리</li>
-                            <li onclick="location.href=''">입사지원 현황</li>
-                            <li onclick="location.href=''">맞춤 정보</li>
-                            <li onclick="location.href=''">스크랩한 공고</li>
+                            <li onclick="location.href=''">Resume Writing</li>
+                            <li onclick="location.href=''">Resume Management</li>
+                            <li onclick="location.href=''">AI proofreading</li>
                         </ul>
-					</ul>
+                    </ul>
+                    <div class="lined"></div>
                     <ul>
-						<li class="sitemap-subtit login" onclick="location.href=''"><button>로그인/회원가입</button></li>
-					</ul>
+                        <li class="sitemap-subtit" onclick="location.href='community_story.html'">Interview</li>
+                        <ul class="sub-flexmenu">
+                            <li onclick="location.href=''">Enterprise Review</li>
+                            <li onclick="location.href=''">Salary</li>
+                            <li onclick="location.href=''">Corporate Analysis Report</li>
+                        </ul>
+                    </ul>
+                    <div class="lined"></div>
+                    <ul>
+                        <li class="sitemap-subtit" onclick="location.href='community.html'">Community</li>
+                        <ul class="sub-flexmenu">
+                            <li onclick="location.href=''">Created by Community</li>
+                            <li onclick="location.href=''">Interview review</li>
+                            <li onclick="location.href=''">Job Interview</li>
+                            <li onclick="location.href=''">Application form for successful applicants</li>
+                        </ul>
+                    </ul>
+                    <div class="lined"></div>
+                    <ul>
+                        <li class="sitemap-subtit" onclick="location.href='mypage.html'">Mypage</li>
+                        <ul class="sub-flexmenu">
+                            <li onclick="location.href=''">Member information management</li>
+                            <li onclick="location.href=''">Resume Management</li>
+                            <li onclick="location.href=''">Job application status</li>
+                            <li onclick="location.href=''">Custom Information</li>
+                            <li onclick="location.href=''">Scraped notice</li>
+                        </ul>
+                    </ul>
+                    <ul>
+                        <li class="sitemap-subtit login" onclick="location.href='mypage.html'"><button onclick="location.href='login.html'">Login/Join the
+                                membership</button></li>
+                    </ul>
 
-				</div>
-			</div>
-		</div>
-	</div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- //end 모바일 햄버거 -->
 
     <!-- main -->
     <main>
         <div class="main-topslide">
-            <div class="swiper mySwiper">
+            <div class="swiper mySwiper mainsilde">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" onclick="location.href='employment.html'">
                         <div class="swiper-boxshadow"></div>
                         <div class="swiper-header">
-                            <p>개발 직군</p>
-                            <h1>개발 직군이라면 주목! <br>
-                            서류 합격만 해도 모두에게 혜택이</h1>
+                            <p>Development occupation</p>
+                            <h1>[KOTRA] Hanmegabina, Vietnam,<br> and production management</h1>
                         </div>
-                        <button>자세히 보기 <img src="assets/images/icon/ic_arright_white.png" alt=""></button>
-                        <img src="assets/images/main_banner.png" alt="">    
+                        <img src="assets/images/main1.png" alt="">
                     </div>
 
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" onclick="location.href='employment.html'">
                         <div class="swiper-boxshadow"></div>
                         <div class="swiper-header">
-                            <p>IT/기술</p>
-                            <h1>전액 무료 Android 앱 개발 취업 부트캠프<br>
-                                지금 바로 신청해보세요!</h1>
+                            <p>IT/Technology</p>
+                            <h1>Full Free Android App<br> Development Job Boot Camp
+                                Apply now!</h1>
                         </div>
-                        <button>자세히 보기 <img src="assets/images/icon/ic_arright_white.png" alt=""></button>
-                        <img src="assets/images/main4.png" alt="">    
+                        <img src="assets/images/main2.png" alt="">
                     </div>
 
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" onclick="location.href='employment.html'">
                         <div class="swiper-boxshadow"></div>
                         <div class="swiper-header">
-                            <p>개발 직군</p>
-                            <h1>일과 삶의 균형을 찾을 수 있는 기업을 소개합니다<br>
-                                나에게 맞는 채용공고를 찾아 북마크해보세요.</h1>
+                            <p>Development occupation</p>
+                            <h1>Performance Advertising (METAD)<br> Marketer Recruitment</h1>
                         </div>
-                        <button>자세히 보기 <img src="assets/images/icon/ic_arright_white.png" alt=""></button>
-                        <img src="assets/images/main3.png" alt="">    
+                        <img src="assets/images/main1.png" alt="">
                     </div>
 
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" onclick="location.href='employment.html'">
                         <div class="swiper-boxshadow"></div>
                         <div class="swiper-header">
-                            <p>교육, 개발, 취업연계</p>
-                            <h1>프리온보딩과 함께 하실<br>
-                            교육파트너를 모집합니다.</h1>
+                            <p>Education, development and employment links</p>
+                            <h1>I'm looking for an educational partner <br>
+                                to work with Freonboarding</h1>
                         </div>
-                        <button>자세히 보기 <img src="assets/images/icon/ic_arright_white.png" alt=""></button>
-                        <img src="assets/images/main4.png" alt="">    
+                        <img src="assets/images/main2.png" alt="">
                     </div>
 
-                    <div class="swiper-slide">
-                        <div class="swiper-boxshadow"></div>
-                        <div class="swiper-header">
-                            <p>서비스기획</p>
-                            <h1>고수의 노트 라인 TPM팀이 전수하는<br>
-                            테크니컬 프로젝트 성공법</h1>
-                        </div>
-                        <button>자세히 보기 <img src="assets/images/icon/ic_arright_white.png" alt=""></button>
-                        <img src="assets/images/main3.png" alt="">    
-                    </div>
                 </div>
-                <div class="swiper-pagination"></div>
+                <div class="bottom-pagination">
+                    <div class="pagination-wr">
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
             </div>
 
-            <ul class="right-menutab">
-                <li>
-                    <img src="assets/images/icon/ic_notice.png" alt="">
-                    <p>채용공고</p>
-                </li>
-                <li>
-                    <img src="assets/images/icon/ic_manage.png" alt="">
-                    <p>이력서 관리</p>
-                </li>
-                <li>
-                    <img src="assets/images/icon/ic_ing.png" alt="">
-                    <p>지원 현황</p>
-                </li>
-                <li>
-                    <img src="assets/images/icon/ic_money.png" alt="">
-                    <p>직군별 연봉</p>
-                </li>
-                <li>
-                    <img src="assets/images/icon/ic_interview.png" alt="">
-                    <p>직무 인터뷰</p>
-                </li>
-                <li>
-                    <img src="assets/images/icon/ic_community.png" alt="">
-                    <p>커뮤니티</p>
-                </li>
-                <li>
-                    <div class="tab-textbox">
-                        <h3>투에스티오 AI 활용하기
-                            <img src="assets/images/icon/ic_arright_white.png" alt="">
-                        </h3>
-                        <p>투에스티오 AI가 도와주는 이력서 작성<br>
-                            해외 취업까지 원패스로!</p>
-                    </div>
-                    <img src="assets/images/AI.png" alt="">
-                </li>
-            </ul>
         </div>
 
         <div class="arrow-slidebox">
-            <div class="swiper mySwiper">
+            <div class="swiper mySwiper subslide">
                 <div class="arrow-headtitle slide-arrow">
-                    <h1>일간 채용 TOP 100을 확인하세요</h1>
+                    <h1>Check out the top 100 daily recruitment</h1>
                     <div class="next-wrbox">
                         <div class="swiper-button-next"><img src="assets/images/icon/ic_arright_white.png" alt=""></div>
                         <div class="swiper-button-prev"><img src="assets/images/icon/ic_arleft_white.png" alt=""></div>
                     </div>
                 </div>
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" onclick="location.href='enterprise_home.html'">
                         <div class="swiper-boxshadow shadow2"></div>
                         <div class="swiper-top">
-                            <p>(주)푸른들소프트</p>
-                            <h1>[국비 무료 IT 취업]<br>
-                                자바/웹앱/프론트,백엔드·풀스텍/빅데이터 외</h1>
+                            <p>Gryard</p>
+                            <h1>[Free IT employment]<br>
+                                Java/WebApp/Front, Backend/FullStock/Big Data and more</h1>
                         </div>
                         <div class="swiper-bottom">
-                            <div class="s-badge">상시채용</div>
+                            <div class="s-badge">All times</div>
                             <p>D-5</p>
                             <div class="star" onclick="toggleStar(this)">
                                 <img class="empty-star" src="assets/images/icon/ic_star.png" alt="별 아이콘">
-                                <img class="filled-star" src="assets/images/icon/ic_starfill.png" alt="별 아이콘" style="display: none;">
+                                <img class="filled-star" src="assets/images/icon/ic_starfill.png" alt="별 아이콘"
+                                    style="display: none;">
                             </div>
                         </div>
-                        <img src="assets/images/building1.jpg" alt="">    
+                        <img src="assets/images/building1.jpg" alt="">
                     </div>
 
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" onclick="location.href='enterprise_home.html'">
                         <div class="swiper-boxshadow shadow2"></div>
                         <div class="swiper-top">
-                            <p>오스템임플란트(주)</p>
-                            <h1>2024년 키움금융센터 신입사원 채용</h1>
+                            <p>BRAVE & YOUNG DISTRIBUTORS LTD.</p>
+                            <h1>Recruitment of new employees at Kiwoom Financial Center in 2024</h1>
                         </div>
                         <div class="swiper-bottom">
-                            <div class="s-badge alarm">즉시지원</div>
+                            <div class="s-badge alarm">Immediate</div>
                             <p>D-5</p>
                             <div class="star" onclick="toggleStar(this)">
                                 <img class="empty-star" src="assets/images/icon/ic_star.png" alt="별 아이콘">
-                                <img class="filled-star" src="assets/images/icon/ic_starfill.png" alt="별 아이콘" style="display: none;">
+                                <img class="filled-star" src="assets/images/icon/ic_starfill.png" alt="별 아이콘"
+                                    style="display: none;">
                             </div>
                         </div>
-                        <img src="assets/images/building2.jpg" alt="">    
+                        <img src="assets/images/building2.jpg" alt="">
                     </div>
 
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" onclick="location.href='enterprise_home.html'">
                         <div class="swiper-boxshadow shadow2"></div>
                         <div class="swiper-top">
-                            <p>프라다코리아 유한회사</p>
-                            <h1>미우미우 전국 백화점, 면제점 <br> 신입/경력 매장직원 채용</h1>
+                            <p>SJA Inc</p>
+                            <h1>Recruitment of marketers</h1>
                         </div>
                         <div class="swiper-bottom">
-                            <div class="s-badge alarm">즉시지원</div>
+                            <div class="s-badge alarm">Immediate</div>
                             <p>D-18</p>
                             <div class="star" onclick="toggleStar(this)">
                                 <img class="empty-star" src="assets/images/icon/ic_star.png" alt="별 아이콘">
-                                <img class="filled-star" src="assets/images/icon/ic_starfill.png" alt="별 아이콘" style="display: none;">
+                                <img class="filled-star" src="assets/images/icon/ic_starfill.png" alt="별 아이콘"
+                                    style="display: none;">
                             </div>
                         </div>
-                        <img src="assets/images/building3.jpg" alt="">    
+                        <img src="assets/images/building3.jpg" alt="">
                     </div>
 
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" onclick="location.href='enterprise_home.html'">
                         <div class="swiper-boxshadow shadow2"></div>
                         <div class="swiper-top">
-                            <p>영진아이엔디</p>
-                            <h1>반도체 장비 유지보수 담당 채용</h1>
+                            <p>LEADCYCLE</p>
+                            <h1>Recruitment of maintenance of semiconductor equipment</h1>
                         </div>
                         <div class="swiper-bottom">
-                            <div class="s-badge">상시채용</div>
+                            <div class="s-badge">All times</div>
                             <p>D-36</p>
                             <div class="star" onclick="toggleStar(this)">
                                 <img class="empty-star" src="assets/images/icon/ic_star.png" alt="별 아이콘">
-                                <img class="filled-star" src="assets/images/icon/ic_starfill.png" alt="별 아이콘" style="display: none;">
+                                <img class="filled-star" src="assets/images/icon/ic_starfill.png" alt="별 아이콘"
+                                    style="display: none;">
                             </div>
                         </div>
-                        <img src="assets/images/building4.jpg" alt="">    
+                        <img src="assets/images/building4.jpg" alt="">
                     </div>
 
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" onclick="location.href='enterprise_home.html'">
                         <div class="swiper-boxshadow shadow2"></div>
                         <div class="swiper-top">
-                            <p>프라다코리아 유한회사</p>
-                            <h1>미우미우 전국 백화점, 면제점 <br> 신입/경력 매장직원 채용</h1>
+                            <p>Sky Enterprises Limited</p>
+                            <h1>Recruitment of marketers</h1>
                         </div>
                         <div class="swiper-bottom">
-                            <div class="s-badge">상시채용</div>
+                            <div class="s-badge">All times</div>
                             <p>D-20</p>
                             <div class="star" onclick="toggleStar(this)">
                                 <img class="empty-star" src="assets/images/icon/ic_star.png" alt="별 아이콘">
-                                <img class="filled-star" src="assets/images/icon/ic_starfill.png" alt="별 아이콘" style="display: none;">
+                                <img class="filled-star" src="assets/images/icon/ic_starfill.png" alt="별 아이콘"
+                                    style="display: none;">
                             </div>
                         </div>
-                        <img src="assets/images/building5.jpg" alt="">    
+                        <img src="assets/images/building5.jpg" alt="">
                     </div>
 
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" onclick="location.href='enterprise_home.html'">
                         <div class="swiper-boxshadow shadow2"></div>
                         <div class="swiper-top">
-                            <p>(주)푸른들소프트</p>
-                            <h1>2024년 일반직 신입직원 공채</h1>
+                            <p>DELIVERY K VIETNAM</p>
+                            <h1>Recruitment of new employees for general workers in 2024</h1>
                         </div>
                         <div class="swiper-bottom">
-                            <div class="s-badge">상시채용</div>
+                            <div class="s-badge">All times</div>
                             <p>D-5</p>
                             <div class="star" onclick="toggleStar(this)">
                                 <img class="empty-star" src="assets/images/icon/ic_star.png" alt="별 아이콘">
-                                <img class="filled-star" src="assets/images/icon/ic_starfill.png" alt="별 아이콘" style="display: none;">
+                                <img class="filled-star" src="assets/images/icon/ic_starfill.png" alt="별 아이콘"
+                                    style="display: none;">
                             </div>
                         </div>
-                        <img src="assets/images/building6.jpg" alt="">    
+                        <img src="assets/images/building6.jpg" alt="">
                     </div>
 
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" onclick="location.href='enterprise_home.html'">
                         <div class="swiper-boxshadow shadow2"></div>
                         <div class="swiper-top">
-                            <p>영진아이엔디</p>
-                            <h1>반도체 장비 유지보수 담당 채용</h1>
+                            <p>Sky Enterprises Limited</p>
+                            <h1>Recruitment of maintenance of semiconductor equipment</h1>
                         </div>
                         <div class="swiper-bottom">
-                            <div class="s-badge">상시채용</div>
+                            <div class="s-badge">All times</div>
                             <p>D-5</p>
                             <div class="star" onclick="toggleStar(this)">
                                 <img class="empty-star" src="assets/images/icon/ic_star.png" alt="별 아이콘">
-                                <img class="filled-star" src="assets/images/icon/ic_starfill.png" alt="별 아이콘" style="display: none;">
+                                <img class="filled-star" src="assets/images/icon/ic_starfill.png" alt="별 아이콘"
+                                    style="display: none;">
                             </div>
                         </div>
-                        <img src="assets/images/building7.jpg" alt="">    
+                        <img src="assets/images/building7.jpg" alt="">
                     </div>
                 </div>
-              </div>
+            </div>
         </div>
 
         <div class="basic-layoutbox">
             <div class="arrow-headtitle">
-                <h1>경험자가 직접 알려드립니다!</h1>
-                <img src="assets/images/icon/ic_right.png" alt="">
+                <h1>stories of experienced people</h1>
+                <img src="assets/images/icon/ic_right.png" alt="" onclick="location.href='community.html'">
             </div>
             <ul data-aos="fade-up">
-                <li>
+                <li onclick="location.href='commu_inner.html'">
                     <div class="layout-img">
                         <img src="assets/images/community1.png" alt="">
                     </div>
                     <div class="layout-text">
-                        <h3>미래를 상상한다! [김소진의 커리어칵테일]</h3>
-                        <p>예전 사무실에서 근무할 때, 통유리로 된 창가 자리가 있었는데 무엇때문인지 작은 크랙이 생긴 적이 있다. 처음에는 엄청 작아서 알아볼 수가 없었다. </p>
-                        <p class="subject">직무 인터뷰</p>
+                        <h3>I imagine the future! [Kim Sojin's career cocktail]</h3>
+                        <p>When I was working in my old office, there was a window seat made of whole glass, and for
+                            some reason there was a small crack. At first, it was so small that I couldn't recognize it.
+                        </p>
+                        <p class="subject">A job interview</p>
                     </div>
                 </li>
-                <li>
+                <li onclick="location.href='commu_inner.html'">
                     <div class="layout-img">
                         <img src="assets/images/community2.png" alt="">
                     </div>
                     <div class="layout-text">
-                        <h3>[대상관계in회사] 네 안에, 나 있다</h3>
-                        <p>대상관계이론에서 말하는 '투사적 동일시'는 방어기제의 하나로 내가 가진 나쁜 또는 원하지 않는 속성을 내 안에서 분리시키고 그 속성을 타인에게 투사하여 조종하는 것이라고 한다.  </p>
-                        <p class="subject">직무 인터뷰</p>
+                        <h3>[Dae Sang-related company] Inside you, I'm here</h3>
+                        <p>The 'projective identification' referred to in the theory of subject relations is one of the
+                            defense mechanisms, which is to separate bad or unwanted attributes from within oneself and
+                            project and manipulate those attributes to others.</p>
+                        <p class="subject">A job interview</p>
                     </div>
                 </li>
-                <li>
+                <li onclick="location.href='commu_inner.html'">
                     <div class="layout-img">
                         <img src="assets/images/community3.png" alt="">
                     </div>
                     <div class="layout-text">
-                        <h3>[내가 한 말을 내가 오해하지 않기로 함 中 1편.]</h3>
-                        <p>내가 한 말을 내가 오해하지 않기로 했다. 어쩌면 나의 말을 오해해서 나를 지킬 수 있지 않을까?</p>
-                        <p class="subject">면접 후기</p>
+                        <h3>[I decided not to misunderstand what I said] [Episode 1]</h3>
+                        <p>I decided not to misunderstand what I said. Maybe you can misunderstand what I said and
+                            protect me?</p>
+                        <p class="subject">Interview review</p>
                     </div>
                 </li>
             </ul>
@@ -481,21 +584,21 @@
 
         <div class="ad-banner">
             <div class="left-text">
-                <p>AI 추천 매칭</p>
-                <h1>내 직무에 맞게 AI가 포지션을 추천해 드려요</h1>
+                <p>Matching AI recommendations</p>
+                <h1>AI recommends positions according to my job</h1>
             </div>
-            <button>추천매칭 하러가기</button>
+            <button>Going to do it</button>
         </div>
 
         <div class="theme-layout">
             <div class="arrow-headtitle">
-                <h1>테마별로 확인하세요</h1>
-                <img src="assets/images/icon/ic_right.png" alt="">
+                <h1>Check by theme</h1>
+                <img src="assets/images/icon/ic_right.png" alt="" onclick="location.href='employment.html'">
             </div>
             <ul data-aos="fade-up">
-                <li>
+                <li onclick="location.href='employment.html'">
                     <div class="swiper-boxshadow"></div>
-                    <h3>나라별 모아보기</h3>
+                    <h3>Collecting by Country</h3>
                     <div class="theme-bottom">
                         <img src="assets/images/country1.png" alt="">
                         <img src="assets/images/country2.png" alt="">
@@ -505,9 +608,9 @@
                     </div>
                     <img src="assets/images/theme1.png" alt="" class="backimg">
                 </li>
-                <li>
+                <li onclick="location.href='employment.html'">
                     <div class="swiper-boxshadow"></div>
-                    <h3>직무별 모아보기</h3>
+                    <h3>Collecting by Job</h3>
                     <div class="theme-bottom">
                         <img src="assets/images/company6.png" alt="">
                         <img src="assets/images/company2.png" alt="">
@@ -517,9 +620,9 @@
                     </div>
                     <img src="assets/images/theme2.png" alt="" class="backimg">
                 </li>
-                <li>
+                <li onclick="location.href='employment.html'">
                     <div class="swiper-boxshadow"></div>
-                    <h3>기업별 모아보기</h3>
+                    <h3>Collecting by company</h3>
                     <div class="theme-bottom">
                         <img src="assets/images/company1.png" alt="">
                         <img src="assets/images/company7.png" alt="">
@@ -529,9 +632,9 @@
                     </div>
                     <img src="assets/images/theme3.png" alt="" class="backimg">
                 </li>
-                <li>
+                <li onclick="location.href='employment.html'">
                     <div class="swiper-boxshadow"></div>
-                    <h3>산업별 모아보기</h3>
+                    <h3>Collecting by Industry</h3>
                     <div class="theme-bottom">
                         <img src="assets/images/company5.png" alt="">
                         <img src="assets/images/company1.png" alt="">
@@ -543,113 +646,124 @@
                 </li>
             </ul>
         </div>
+
+        <div class="background-wrapper">
+            <div class="background-layout">
+                <div class="swiper mySwiper subslide">
+                    <div class="arrow-headtitle slide-arrow">
+                        <h1>Vivid interview review!</h1>
+                        <div class="next-wrbox">
+                            <div class="swiper-button-next"><img src="assets/images/icon/ic_arright_white.png" alt="">
+                            </div>
+                            <div class="swiper-button-prev"><img src="assets/images/icon/ic_arleft_white.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" onclick="location.href='community_story.html'">
+                            <div class="layout-img">
+                                <img src="assets/images/community4.png" alt="">
+                            </div>
+                            <div class="layout-text">
+                                <h3>I imagine the future! [Kim Sojin's career cocktail]</h3>
+                                <p>When I was working in my old office, there was a window seat made of whole glass, and
+                                    for some reason there was a small crack. At first, it was so small that I couldn't
+                                    recognize it.</p>
+                                <p class="subject">A job interview</p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide" onclick="location.href='community_story.html'">
+                            <div class="layout-img">
+                                <img src="assets/images/community5.png" alt="">
+                            </div>
+                            <div class="layout-text">
+                                <h3>[Donald Norman's 5th special lecture on UX]</h3>
+                                <p>It is "forget" that is called a curse or a blessing to a person. Memory always makes
+                                    us feel sorry for it in the process of working or learning. </p>
+                                <p class="subject">A job interview</p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide" onclick="location.href='community_story.html'">
+                            <div class="layout-img">
+                                <img src="assets/images/community2.png" alt="">
+                            </div>
+                            <div class="layout-text">
+                                <h3>Open AI's K Startup Interview Review</h3>
+                                <p>It's long past the days when people applied for papers when they registered job
+                                    postings on recruitment platforms such as People, Job Korea, and Wanted. </p>
+                                <p class="subject">A job interview</p>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide" onclick="location.href='community_story.html'">
+                            <div class="layout-img">
+                                <img src="assets/images/community4.png" alt="">
+                            </div>
+                            <div class="layout-text">
+                                <h3>I imagine the future! [Kim Sojin's career cocktail]</h3>
+                                <p>When I was working in my old office, there was a window seat made of whole glass, and
+                                    for some reason there was a small crack. At first, it was so small that I couldn't
+                                    recognize it. </p>
+                                <p class="subject">A job interview</p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide" onclick="location.href='community_story.html'">
+                            <div class="layout-img">
+                                <img src="assets/images/community5.png" alt="">
+                            </div>
+                            <div class="layout-text">
+                                <h3>[Donald Norman's 5th special lecture on UX]</h3>
+                                <p>When I was working in my old office, there was a window seat made of whole glass, and
+                                    for some reason there was a small crack. At first, it was so small that I couldn't
+                                    recognize it. </p>
+                                <p class="subject">A job interview</p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide" onclick="location.href='community_story.html'">
+                            <div class="layout-img">
+                                <img src="assets/images/community2.png" alt="">
+                            </div>
+                            <div class="layout-text">
+                                <h3>Open AI's K Startup Interview Review</h3>
+                                <p>When I was working in my old office, there was a window seat made of whole glass, and
+                                    for some reason there was a small crack. At first, it was so small that I couldn't
+                                    recognize it. </p>
+                                <p class="subject">A job interview</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottombanner-wr">
+            <div class="ad-bottombanner" data-aos="fade-up">
+                <div class="adbox">
+                    <div class="swiper-boxshadow"></div>
+                    <div class="inner-text">
+                        <p>Matching AI recommendations</p>
+                        <h1>AI recommends a position to suit my job!</h1>
+                        <p class="bottom">Going to do it</p>
+                    </div>
+                    <img src="assets/images/1.png" alt="">
+                </div>
+                <div class="adbox">
+                    <div class="swiper-boxshadow"></div>
+                    <div class="inner-text">
+                        <p>Resume</p>
+                        <h1>Interview suggestions that come to you just by registering for your resume!</h1>
+                        <p class="bottom">Going to do it</p>
+                    </div>
+                    <img src="assets/images/2.png" alt="">
+                </div>
+            </div>
+        </div>
     </main>
-
-    <div class="background-wrapper">
-        <div class="background-layout">
-            <div class="swiper mySwiper">
-            <div class="arrow-headtitle slide-arrow">
-                <h1>생생한 면접 후기! 확인해보세요</h1>
-                <div class="next-wrbox">
-                    <div class="swiper-button-next"><img src="assets/images/icon/ic_arright_white.png" alt=""></div>
-                    <div class="swiper-button-prev"><img src="assets/images/icon/ic_arleft_white.png" alt=""></div>
-                </div>
-            </div>
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="layout-img">
-                        <img src="assets/images/community4.png" alt="">
-                    </div>
-                    <div class="layout-text">
-                        <h3>미래를 상상한다! [김소진의 커리어칵테일]</h3>
-                        <p>예전 사무실에서 근무할 때, 통유리로 된 창가 자리가 있었는데 무엇때문인지 작은 크랙이 생긴 적이 있다. 처음에는 엄청 작아서 알아볼 수가 없었다. </p>
-                        <p class="subject">직무 인터뷰</p>
-                    </div>
-                </div>
-    
-                <div class="swiper-slide">
-                    <div class="layout-img">
-                        <img src="assets/images/community5.png" alt="">
-                    </div>
-                    <div class="layout-text">
-                        <h3>[도널드 노먼 할부지의 UX 특강 5편]</h3>
-                        <p>사람에게 저주로도 축복으로도 불리우는 것은 "망각"이다. 일을 하거나 배움의 과정에 있어서 기억은 항상 우리를 안타깝게 하고는 한다. </p>
-                        <p class="subject">직무 인터뷰</p>
-                    </div>
-                </div>
-    
-                <div class="swiper-slide">
-                    <div class="layout-img">
-                        <img src="assets/images/community2.png" alt="">
-                    </div>
-                    <div class="layout-text">
-                        <h3>오픈 AI가 선택한 K 스타트업 면접 후기</h3>
-                        <p>사람인, 잡코리아, 원티드 등 채용 플랫폼에 채용 공고를 등록하면 사람들이 서류를 지원하던 시대는 아주 한참 전에 지나갔습니다. </p>
-                        <p class="subject">직무 인터뷰</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="layout-img">
-                        <img src="assets/images/community4.png" alt="">
-                    </div>
-                    <div class="layout-text">
-                        <h3>미래를 상상한다! [김소진의 커리어칵테일]</h3>
-                        <p>예전 사무실에서 근무할 때, 통유리로 된 창가 자리가 있었는데 무엇때문인지 작은 크랙이 생긴 적이 있다. 처음에는 엄청 작아서 알아볼 수가 없었다. </p>
-                        <p class="subject">직무 인터뷰</p>
-                    </div>
-                </div>
-    
-                <div class="swiper-slide">
-                    <div class="layout-img">
-                        <img src="assets/images/community5.png" alt="">
-                    </div>
-                    <div class="layout-text">
-                        <h3>[도널드 노먼 할부지의 UX 특강 5편]</h3>
-                        <p>예전 사무실에서 근무할 때, 통유리로 된 창가 자리가 있었는데 무엇때문인지 작은 크랙이 생긴 적이 있다. 처음에는 엄청 작아서 알아볼 수가 없었다. </p>
-                        <p class="subject">직무 인터뷰</p>
-                    </div>
-                </div>
-    
-                <div class="swiper-slide">
-                    <div class="layout-img">
-                        <img src="assets/images/community2.png" alt="">
-                    </div>
-                    <div class="layout-text">
-                        <h3>오픈 AI가 선택한 K 스타트업 면접 후기</h3>
-                        <p>예전 사무실에서 근무할 때, 통유리로 된 창가 자리가 있었는데 무엇때문인지 작은 크랙이 생긴 적이 있다. 처음에는 엄청 작아서 알아볼 수가 없었다. </p>
-                        <p class="subject">직무 인터뷰</p>
-                    </div>
-                </div>
-    
-            </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="bottombanner-wr">
-        <div class="ad-bottombanner" data-aos="fade-up">
-            <div class="adbox">
-                <div class="swiper-boxshadow"></div>
-                <div class="inner-text">
-                    <p>AI 추천 매칭</p>
-                    <h1>내 직무에 맞게 AI가 <br>
-                        포지션을 추천해 드려요!</h1>
-                    <p class="bottom">추천매칭 하러가기</p>
-                </div>
-                <img src="assets/images/1.png" alt="">
-            </div>
-            <div class="adbox">
-                <div class="swiper-boxshadow"></div>
-                <div class="inner-text">
-                    <p>이력서</p>
-                    <h1>이력서만 등록해도 <br>
-                        찾아오는 면접 제안!</h1>
-                    <p class="bottom">이력서 작성하러가기</p>
-                </div>
-                <img src="assets/images/2.png" alt="">
-            </div>
-        </div>
-    </div>
     <!-- //end main -->
 
     <!-- footer -->
@@ -658,9 +772,9 @@
             <div class="footer-top">
                 <a href="" class="footer-branding"><img src="assets/images/logo_header.png" alt="Logo"></a>
                 <ul class="footer-menu">
-                    <li class="footer-menu-item"><a href="">고객센터</a></li>
-                    <li class="footer-menu-item"><a href="">개인정보처리방침</a></li>
-                    <li class="footer-menu-item"><a href="">서비스 이용약관</a></li>
+                    <li class="footer-menu-item"><a href="">Customer Service</a></li>
+                    <li class="footer-menu-item"><a href="">Personal Information Processing Policy</a></li>
+                    <li class="footer-menu-item"><a href="">Terms and Conditions of Service</a></li>
                 </ul>
             </div>
             <div class="footer-cont">
@@ -669,8 +783,8 @@
                     <li class="footer-addr-item">Business registration number : 759-90-01645</li>
                     <li class="footer-addr-item">Overseas paid job placement business license number : F1401020210001
                     </li>
-                    <li class="footer-addr-item">Domestic paid job placement business license number : 제
-                        2021-3460177-14-5-00008호</li>
+                    <li class="footer-addr-item">Domestic paid job placement business license number : No.
+                        2021-3460177-14-5-00008</li>
                     <li class="footer-addr-item">401-219, 300, Dongdaegu-ro, Suseong-gu, Daegu, Republic of Korea.
                         info@twosto.com │ (+82) 10-3809-9055</li>
                 </ul>
@@ -683,7 +797,7 @@
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Jquery JS-->
@@ -694,9 +808,14 @@
     <script>
         AOS.init();
 
-        var swiper = new Swiper(".main-topslide .mySwiper", {
+        var mainsilde = new Swiper(".main-topslide .mySwiper", {
             pagination: {
                 el: ".swiper-pagination",
+                type: "progressbar",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
             },
             slidesPerView: 'auto',
             loop: true,
@@ -706,7 +825,7 @@
             speed: 1000,
         });
 
-        var swiper = new Swiper(".arrow-slidebox .mySwiper,.background-layout .mySwiper", {
+        var subslide = new Swiper(".arrow-slidebox .mySwiper,.background-layout .mySwiper", {
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
@@ -717,6 +836,36 @@
             },
             speed: 1000,
         });
+
+        // 검색창 모달
+        function showModal() {
+            var modal = document.getElementById("myModal");
+            modal.style.display = "block";
+        }
+
+        // 모달을 닫는 함수
+        function closeModal() {
+            var modal = document.getElementById("myModal");
+            modal.style.display = "none";
+        }
+
+        // 모달 닫기 버튼에 클릭 이벤트 추가
+        document.getElementsByClassName("close")[0].onclick = function () {
+            closeModal();
+        };
+
+        // 검색 버튼에 클릭 이벤트 추가
+        document.getElementById("myBtn").onclick = function () {
+            showModal();
+        };
+
+        // 모달 외부를 클릭하면 모달이 닫히도록 설정
+        window.onclick = function (event) {
+            var modal = document.getElementById("myModal");
+            if (event.target == modal) {
+                closeModal();
+            }
+        };
     </script>
 </body>
 

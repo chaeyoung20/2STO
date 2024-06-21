@@ -1,0 +1,228 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/*--- base ---*/
+@-ms-viewport {
+    width: device-width;
+}
+
+@o-viewport {
+    width: device-width;
+}
+
+@viewport {
+    width: device-width;
+}
+
+:root {
+    /* brand color */
+    --primary-color: #3B68FF;
+    --secondary-color:#f4f8fd;
+    /*color */
+    --background-color: #f8f8f8; 
+    --border-color: #DEE2E6;
+    --white-color: #FFF;
+    --font-color: #21252A;
+    --color-text-01: #6C757D;
+    --color-text-02: #ADB5BD;
+
+    /* ---semantic--- */
+    --semantic-error: #FF3B77;
+    --semantic-warning: #FFB82E;
+    --semantic-success: #20C572;
+    --semantic-info: #4270ED;
+
+    /* ui */
+    --transition: 0.25s ease-in-out;
+    --box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    /* font size */
+    --f-big: 32px;
+    --f-large: 24px;
+    --f-middle: 20px; 
+    --f-normal: 16px;
+    --f-small: 14px;
+    --f-caption: 12px;
+
+    /* fontweight */
+    --font-bold: 700;
+    --font-semibold: 600;
+    --font-regular: 500;
+
+    /* radius */
+    --radius-big: 50px;
+    --radius-medium: 24px; 
+    --radius-regular: 12px;
+    --radius-small: 6px;
+
+    /* transition */
+    --transition: 0.25s ease-in-out;
+    --transition2: 0.4s ease;
+}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video,button {
+    font-family: "Inter", sans-serif;
+}
+
+/* base */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    word-break: keep-all;
+    font-size: 14px;
+    color: var(--font-color);
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+::selection {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+label {
+    cursor: pointer;
+}
+
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+[type='text']:focus,
+[type='email']:focus,
+[type='url']:focus,
+[type='password']:focus,
+[type='number']:focus,
+[type='date']:focus,
+[type='datetime-local']:focus,
+[type='month']:focus,
+[type='search']:focus,
+[type='tel']:focus,
+[type='time']:focus,
+[type='week']:focus,
+[multiple]:focus,
+textarea:focus,
+select:focus {
+    border-color: var(--border-color);
+    --tw-ring-color: var(--border-color);
+}
+
+.btn,
+select,
+option,
+input {
+    height: 50px;
+    font-family: "Inter", sans-serif;
+}
+
+.btn {
+    opacity: 1;
+    transition: var(--transition);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: var(--f-middle);
+    letter-spacing: 1px;
+    border-radius: 50px;
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+select,
+input,
+textarea {
+    border: 1px solid var(--border-color);
+    border-color: var(--border-color);
+    padding: 8px 14px;
+    font-family: "Inter", sans-serif;
+}
+
+select {
+    cursor: pointer;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+[type='checkbox'],
+[type='radio'] {
+    color: var(--primary-color);
+}
+
+[type='checkbox']:checked,
+[type='radio']:checked {
+    border-color: var(--border-color);
+}
+
+input::placeholder {
+    color: var(--font-color);
+    font-size: var(--f-caption);
+}
+
+.mobile {
+    display: none;
+}
+
+b {
+    font-weight: 700;
+}
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+button {
+    border-color: transparent;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.btn-outline {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: var(--white-color);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+    border-radius: var(--radius-big);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--border-color);
+    border-radius: var(--radius-big);
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--background-color);
+}

@@ -1617,26 +1617,26 @@ body:has(.resume-register) main{
 
 /* 데이터피커 */
 .ui-state-default, .ui-widget-content .ui-state-default{
-    background-color: var(--white-color);
-    border: none;
-    text-align: center;
-    border-radius: var(--radius-small);
+    background-color: var(--white-color) !important;
+    border: none !important;
+    text-align: center !important;
+    border-radius: var(--radius-small) !important;
 }
 
 .ui-state-highlight, .ui-widget-content .ui-state-highlight{
-    background-color: var(--primary-color);
-    color: var(--white-color);
+    background-color: var(--primary-color) !important;
+    color: var(--white-color) !important;
 }
 
 .ui-state-active, .ui-widget-content .ui-state-active{
-    background-color: var(--secondary-color);
-    color: var(--font-color);
-    border: 1px solid var(--primary-color);
+    background-color: var(--secondary-color) !important;
+    color: var(--font-color) !important;
+    border: 1px solid var(--primary-color) !important;
 }
 
 .ui-widget.ui-widget-content{
-    border: 1px solid var(--border-color);
-    border-radius: var(--radius-small);
+    border: 1px solid var(--border-color) !important;
+    border-radius: var(--radius-small) !important;
 }
 
 /* 커뮤니티:피드 형태 */
